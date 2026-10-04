@@ -1,0 +1,2155 @@
+{
+  "design_version": "0.3",
+  "technical_passed": true,
+  "errors": [],
+  "renderer_sources": {
+    "tools/render_deltarune_poc.py": "9b87a58ff5c1760755e774f99591e865846e0d64d555bdba39c7d1938cef1f3c",
+    "tools/design_deltarune_plan.py": "9499cbd4e20edd1fadb4a0d02983d82fc8d59d4ae01dc2a832cf76dbc5b25efe",
+    "film/deltarune_poc/__init__.py": "dcc9eb16d5db02a9e0bd0ae6313cceb4dbf66e407884a6830dc585de7eb6efb7",
+    "film/deltarune_poc/dr_ui.py": "9020ab155f1f8890931133b84e3390adfc225344ac0e7b4ebefab3b3dc016a50",
+    "film/deltarune_poc/lyric_scenes.py": "d0a360575be2ee1c1034d7536547db8768d82e5b7187ea9a8bd4ecbe217e3292",
+    "film/deltarune_poc/renderer.py": "3ebd187ba46f2280b524ddf6d36fec2d1b9632d35babed324040e97395e08d01",
+    "film/deltarune_poc/scenes.py": "b20410b56c02512eab204facede361a7471d35ede9f9000728699b5d48c70f3b",
+    "film/deltarune_poc/stage.py": "ecc4625c11fcc604d6d0a5bad243cdc2459c93380d21ec8a584c3c8aa40568a3"
+  },
+  "plan_sha256": "5ea44a350c9f992c41f15db7c9cf082c04f0047d1de39af7df22d50c795fec9a",
+  "stills": [
+    {
+      "frame": 0,
+      "shot": "LR01",
+      "pixel_sha256": "822e3a311bc34185394aeb709bb83310f1243089b95cdadc218eee179b1d6f78",
+      "file": "out/deltarune_v03/stills/00000.png",
+      "png_sha256": "20f08885b32fd899b85bcdfc5d390a99015ecd71de0242214234ec1efba549e7"
+    },
+    {
+      "frame": 1,
+      "shot": "LR01",
+      "pixel_sha256": "5e8cdca42a59fb0fa51d1b36b0fa6b307af0bf44ede24ed10b9cd807ac516b48",
+      "file": "out/deltarune_v03/stills/00001.png",
+      "png_sha256": "837547d7f07d16eb8641ef7a60e627ada22b3cb98521d54b30b5372d95e8ab16"
+    },
+    {
+      "frame": 12,
+      "shot": "LR01",
+      "pixel_sha256": "7a446db1ab2f9d712087f64b58d497e262c64c544a31038cd48f9fef083ef786",
+      "file": "out/deltarune_v03/stills/00012.png",
+      "png_sha256": "c98b4becb0ddcaf70d16bc4ceea25af263f95472df51434d90aee6912a68cbfc"
+    },
+    {
+      "frame": 43,
+      "shot": "LR01",
+      "pixel_sha256": "685866227f28856e928e127d6cbe46814b5ab5e2fc7d9b81effa7d642f2aaa84",
+      "file": "out/deltarune_v03/stills/00043.png",
+      "png_sha256": "e6c98a024a83d4f65e64c0c5b4de835dcfdee6f82b24320077cce01f31894ed1"
+    },
+    {
+      "frame": 46,
+      "shot": "LR01",
+      "pixel_sha256": "93504bb5b7fbf12ea881a8e0c874d7ee7f51581130be6582a248273b20c1acd8",
+      "file": "out/deltarune_v03/stills/00046.png",
+      "png_sha256": "7d28326777d59dc1b1fb28a15005757c85781aea437bff0e5e7b060cf5bc52d9"
+    },
+    {
+      "frame": 92,
+      "shot": "LR01",
+      "pixel_sha256": "f685cca4b4e7b8f400b1efe56bb40f0ff9d934be005dda8e1bf58a1d7554e9df",
+      "file": "out/deltarune_v03/stills/00092.png",
+      "png_sha256": "d2cc6cd3fc2e79998d6342ae0bebbce0560d38a0b8bdd377bb8e4ee703c4143d"
+    },
+    {
+      "frame": 93,
+      "shot": "LR02",
+      "pixel_sha256": "78bc25a2574c12168518a9ca28f629d24a766cfd175cc37e1b4a24a5a4a4dbc3",
+      "file": "out/deltarune_v03/stills/00093.png",
+      "png_sha256": "d2b3efee00d9967453537c018a99707d29aae0bad3faf43372cb2ba7ae0def36"
+    },
+    {
+      "frame": 105,
+      "shot": "LR02",
+      "pixel_sha256": "f9613026db54fcd4395748c2db3ce8e3bc06bd68ca2c8a040a6be3513796f077",
+      "file": "out/deltarune_v03/stills/00105.png",
+      "png_sha256": "bd11de3cc02a48fcc75f99c87e6ee40062335af025d3316920140bc096ecae8a"
+    },
+    {
+      "frame": 130,
+      "shot": "LR02",
+      "pixel_sha256": "d0b870b39adb60c6fe657cd1d09af990a988b2fc508ed422938f02b09b0b339e",
+      "file": "out/deltarune_v03/stills/00130.png",
+      "png_sha256": "ec47850a1df67eedb03669ceccda7ab3bda4ffc2a2957e8b3c2310ddec3ca132"
+    },
+    {
+      "frame": 135,
+      "shot": "LR02",
+      "pixel_sha256": "6f209d2e8b0fa87e2c525caf0dd6a9eae9c3e627d8dd8b9d1a874da9f4a6ccb9",
+      "file": "out/deltarune_v03/stills/00135.png",
+      "png_sha256": "0e69a49aa506bfca9afc05a7fb22300ef847ea764c65edda5aaa4df697d28415"
+    },
+    {
+      "frame": 156,
+      "shot": "LR02",
+      "pixel_sha256": "77a969d05cd97878713e2df5867ac132c3d5f947ba62265720d20916602458c5",
+      "file": "out/deltarune_v03/stills/00156.png",
+      "png_sha256": "4d191172ec227613905fb79a1257aad2ce76fbf8b3d4e600395a5c5eca04681f"
+    },
+    {
+      "frame": 176,
+      "shot": "LR02",
+      "pixel_sha256": "77a969d05cd97878713e2df5867ac132c3d5f947ba62265720d20916602458c5",
+      "file": "out/deltarune_v03/stills/00176.png",
+      "png_sha256": "4d191172ec227613905fb79a1257aad2ce76fbf8b3d4e600395a5c5eca04681f"
+    },
+    {
+      "frame": 177,
+      "shot": "LR03",
+      "pixel_sha256": "13dfbe62ec7467fece17578f23a7cf2e843d2c26c52d576be31e66ec04060913",
+      "file": "out/deltarune_v03/stills/00177.png",
+      "png_sha256": "196775e18adde6367fde6aeaed28d957d74e8e55298c29612cbedb69ba8e476c"
+    },
+    {
+      "frame": 189,
+      "shot": "LR03",
+      "pixel_sha256": "9d268aa953550a96b9bc633fc13f589469717004edef0f76d507d84092937ac1",
+      "file": "out/deltarune_v03/stills/00189.png",
+      "png_sha256": "f592f59e11dfa6bfa64f65b221b1aebf18723efb2eb8a4b8f8a298e9ef40e3c0"
+    },
+    {
+      "frame": 200,
+      "shot": "LR03",
+      "pixel_sha256": "843236a6ffa61d0a51ad52ca93f203d9ab3325b32dfb0e05b07534ffa87dc7fe",
+      "file": "out/deltarune_v03/stills/00200.png",
+      "png_sha256": "b284abba805988a22f23aa919b0ca90d5874a884d3fb36caa711ac71d682662a"
+    },
+    {
+      "frame": 210,
+      "shot": "LR03",
+      "pixel_sha256": "7b898f001fd68d89843495f086a6d8d50f776b8e2067be742c91b03f4b8c26f4",
+      "file": "out/deltarune_v03/stills/00210.png",
+      "png_sha256": "ba3f21c9374113fe4b66d420391bfecd2550030963e21e9440ec186c54a45f49"
+    },
+    {
+      "frame": 242,
+      "shot": "LR03",
+      "pixel_sha256": "28e3719e8a6976e32a051406a611e77f0f4c9f02fcee198b85a277f1c2914962",
+      "file": "out/deltarune_v03/stills/00242.png",
+      "png_sha256": "88a83a751d1aa425e0ad36cc2644a1358b0388a6de891d4c14373c841524d436"
+    },
+    {
+      "frame": 243,
+      "shot": "LR04",
+      "pixel_sha256": "28e3719e8a6976e32a051406a611e77f0f4c9f02fcee198b85a277f1c2914962",
+      "file": "out/deltarune_v03/stills/00243.png",
+      "png_sha256": "88a83a751d1aa425e0ad36cc2644a1358b0388a6de891d4c14373c841524d436"
+    },
+    {
+      "frame": 251,
+      "shot": "LR04",
+      "pixel_sha256": "a3f8686a2a53872a4c9e23f2347c87438395f8317a3393b5facad5cbf1f47b7f",
+      "file": "out/deltarune_v03/stills/00251.png",
+      "png_sha256": "0303e19bcf44630db42846898fa164975b2f15fe6db529cdcf21ccd5f9edad5a"
+    },
+    {
+      "frame": 255,
+      "shot": "LR04",
+      "pixel_sha256": "a3f8686a2a53872a4c9e23f2347c87438395f8317a3393b5facad5cbf1f47b7f",
+      "file": "out/deltarune_v03/stills/00255.png",
+      "png_sha256": "0303e19bcf44630db42846898fa164975b2f15fe6db529cdcf21ccd5f9edad5a"
+    },
+    {
+      "frame": 256,
+      "shot": "LR04",
+      "pixel_sha256": "a3f8686a2a53872a4c9e23f2347c87438395f8317a3393b5facad5cbf1f47b7f",
+      "file": "out/deltarune_v03/stills/00256.png",
+      "png_sha256": "0303e19bcf44630db42846898fa164975b2f15fe6db529cdcf21ccd5f9edad5a"
+    },
+    {
+      "frame": 268,
+      "shot": "LR04",
+      "pixel_sha256": "a3f8686a2a53872a4c9e23f2347c87438395f8317a3393b5facad5cbf1f47b7f",
+      "file": "out/deltarune_v03/stills/00268.png",
+      "png_sha256": "0303e19bcf44630db42846898fa164975b2f15fe6db529cdcf21ccd5f9edad5a"
+    },
+    {
+      "frame": 269,
+      "shot": "LR05",
+      "pixel_sha256": "12656af60764f37e3afb5a09a61c837572b9fe56c2f77ba8c07ccd2f89b141f6",
+      "file": "out/deltarune_v03/stills/00269.png",
+      "png_sha256": "725f1af20e3a72c6ade1d45c92f87c6d38eeb75e04682ae5e78af95aa778775a"
+    },
+    {
+      "frame": 281,
+      "shot": "LR05",
+      "pixel_sha256": "12656af60764f37e3afb5a09a61c837572b9fe56c2f77ba8c07ccd2f89b141f6",
+      "file": "out/deltarune_v03/stills/00281.png",
+      "png_sha256": "725f1af20e3a72c6ade1d45c92f87c6d38eeb75e04682ae5e78af95aa778775a"
+    },
+    {
+      "frame": 327,
+      "shot": "LR05",
+      "pixel_sha256": "7bb64806aed6a96cae69205a15ee5455578a0a1e720196eaee446f0e4703b90b",
+      "file": "out/deltarune_v03/stills/00327.png",
+      "png_sha256": "3aca8564f41ef00776bafea0ac18ebd3d910974f481b4676c3f6ec35f637a274"
+    },
+    {
+      "frame": 384,
+      "shot": "LR05",
+      "pixel_sha256": "36f613e5d239e065723433150fc59da5db8054953357434c923fbb86fbb7bae5",
+      "file": "out/deltarune_v03/stills/00384.png",
+      "png_sha256": "4ae864450b2020cfbe7e0a18c17c48f74f89bc7e5295254040e126e55717d023"
+    },
+    {
+      "frame": 385,
+      "shot": "LR06",
+      "pixel_sha256": "2acde7a4d18503582fe807d9fbf63193341b4cdbbf95c5f4ce782551ab0bf5eb",
+      "file": "out/deltarune_v03/stills/00385.png",
+      "png_sha256": "9a9b6991efca97df9450e35f7e7d2f4d0419af615c4d731b23d2ac55570c3660"
+    },
+    {
+      "frame": 397,
+      "shot": "LR06",
+      "pixel_sha256": "b255abfa83e68cc3ef280e5de22cf189f7802c4a9c2ae980ab159d91f906c425",
+      "file": "out/deltarune_v03/stills/00397.png",
+      "png_sha256": "f327cdd9b4c89836803cc103be4f73329b1a2b007322d95471674a51b9c2b069"
+    },
+    {
+      "frame": 430,
+      "shot": "LR06",
+      "pixel_sha256": "635eceec969eedd44e5796c9f29def97e900609e16f232bfebf714ac49d8bd28",
+      "file": "out/deltarune_v03/stills/00430.png",
+      "png_sha256": "dc2dae1d1cb5bdbb975617f776735e33701183f5cb20ed2d1eee3e8ef79e9c93"
+    },
+    {
+      "frame": 432,
+      "shot": "LR06",
+      "pixel_sha256": "5a8385d4a8d5dffd2c6cf4df16aec3a36e0cea19d7b0b688354e76535324d24f",
+      "file": "out/deltarune_v03/stills/00432.png",
+      "png_sha256": "0381b08520a8cc097fdd6d9c4b1597a58d95cf334229dc32c544dc3e1c2b3aa1"
+    },
+    {
+      "frame": 475,
+      "shot": "LR06",
+      "pixel_sha256": "11a9fdf2bc947d7253fee53ed0f92dbe7060c9fb01b01e3ff525d69ef4fc43e8",
+      "file": "out/deltarune_v03/stills/00475.png",
+      "png_sha256": "9bafeea5cf696307ab73eaab6ea6b4e11427941b80c894b3b379c9dc2c876f93"
+    },
+    {
+      "frame": 476,
+      "shot": "LR07",
+      "pixel_sha256": "a544711925ad993ee8109ae2fe590bc8173c49f3fbe392e295fd47bf82639b11",
+      "file": "out/deltarune_v03/stills/00476.png",
+      "png_sha256": "2bb794a7daa31879771d1707010d130857ed422ad4e876345c54632413282664"
+    },
+    {
+      "frame": 488,
+      "shot": "LR07",
+      "pixel_sha256": "dc0c1299c299811187ebb6ae6b13e2debab427ada3477d0831ef83beba506e67",
+      "file": "out/deltarune_v03/stills/00488.png",
+      "png_sha256": "0c2a38bac73e3ac8452f934f6751ffb2f5aff69d2504bac9195daa91a083736f"
+    },
+    {
+      "frame": 521,
+      "shot": "LR07",
+      "pixel_sha256": "8893ed1643729e28da6fc943a0bab7e7e54834b4b6c7d705e0dfd63913af8d81",
+      "file": "out/deltarune_v03/stills/00521.png",
+      "png_sha256": "1e86056b443cb104084a5b1e6786eafaaa19f31b2d87f8bcc2d0005c087cb3a3"
+    },
+    {
+      "frame": 535,
+      "shot": "LR07",
+      "pixel_sha256": "bf850a39762c238d07021a1c9cef2c99e62a83ab30aca07a280a64c424550899",
+      "file": "out/deltarune_v03/stills/00535.png",
+      "png_sha256": "98bd293e7075d21885556544fab0e9a7880cce1a8f1d5db0167b9f288a71858f"
+    },
+    {
+      "frame": 566,
+      "shot": "LR07",
+      "pixel_sha256": "bf850a39762c238d07021a1c9cef2c99e62a83ab30aca07a280a64c424550899",
+      "file": "out/deltarune_v03/stills/00566.png",
+      "png_sha256": "98bd293e7075d21885556544fab0e9a7880cce1a8f1d5db0167b9f288a71858f"
+    },
+    {
+      "frame": 567,
+      "shot": "LR08",
+      "pixel_sha256": "14704029eca7391d7406f0321db8ae408b94b4a88e7320afac3e02b6fe3f7682",
+      "file": "out/deltarune_v03/stills/00567.png",
+      "png_sha256": "d3c7a292a0236b02f94327f0043ad10d7e0eb1db2659385c44b30e11ba657fd1"
+    },
+    {
+      "frame": 579,
+      "shot": "LR08",
+      "pixel_sha256": "1d766c1c3281c4b50a0ee4e6470fa016a72ce0b68603af117d840bec5970756d",
+      "file": "out/deltarune_v03/stills/00579.png",
+      "png_sha256": "34315a0ef76912a66a005d514718f376b9aa11bd254f4eaab65146896d4cc6e8"
+    },
+    {
+      "frame": 641,
+      "shot": "LR08",
+      "pixel_sha256": "892126c98bc22238fba2350685ce1ed998d2d8dce0d9292afd2ffcfcdd48f9f1",
+      "file": "out/deltarune_v03/stills/00641.png",
+      "png_sha256": "2e7b3b5d688b57a1dee7c99a135b3b1f2ecb3383cb3fcc238a963c495f781c7f"
+    },
+    {
+      "frame": 655,
+      "shot": "LR08",
+      "pixel_sha256": "052826096fa14792370e37ad9973434894d6357bd2c15b40cd822b93aab0d1dc",
+      "file": "out/deltarune_v03/stills/00655.png",
+      "png_sha256": "f373349a08f4d894f624bf106e7a3d23ad77138d8efcd1e3106d2d1f07a7fda1"
+    },
+    {
+      "frame": 714,
+      "shot": "LR08",
+      "pixel_sha256": "052826096fa14792370e37ad9973434894d6357bd2c15b40cd822b93aab0d1dc",
+      "file": "out/deltarune_v03/stills/00714.png",
+      "png_sha256": "f373349a08f4d894f624bf106e7a3d23ad77138d8efcd1e3106d2d1f07a7fda1"
+    },
+    {
+      "frame": 715,
+      "shot": "LR09",
+      "pixel_sha256": "48b5880584cfef1e3282551f1afacb8c79edd51028d024397650a9d9dbb3f318",
+      "file": "out/deltarune_v03/stills/00715.png",
+      "png_sha256": "280d4093dcaf29747b03466eac592cbf21d78d5c8e4fb05d838952b066cd0c33"
+    },
+    {
+      "frame": 727,
+      "shot": "LR09",
+      "pixel_sha256": "217edffdd4136fdd96f1b50986f5a7c6e8c5d698e10f95df4d6775ed8e3f7895",
+      "file": "out/deltarune_v03/stills/00727.png",
+      "png_sha256": "9e666c52fe0114535dfd64447763457cb0627ace9722869cb38d6946e811ec34"
+    },
+    {
+      "frame": 802,
+      "shot": "LR09",
+      "pixel_sha256": "60e85b0b5dd64d7b47672f15108217d6bbe004abea5ac15f1682815fb12a4ddb",
+      "file": "out/deltarune_v03/stills/00802.png",
+      "png_sha256": "fd611e9dc29b5f2e385a6f8c960e0213b3b76d570fd9154cf834b14f0d993643"
+    },
+    {
+      "frame": 848,
+      "shot": "LR09",
+      "pixel_sha256": "762e5a00c0b04ea699be097f50a8d1cf04600ad04e558cd00cdc219fb616b6ed",
+      "file": "out/deltarune_v03/stills/00848.png",
+      "png_sha256": "95dde3d48d89805a79a6606e43218af6b8350a928d9c7d62d9183cc3967a218e"
+    },
+    {
+      "frame": 863,
+      "shot": "LR09",
+      "pixel_sha256": "ac705c32b2e3b409f28e8dc954dfaebd1a3d6d3c25267fa124ac24be7ed85e25",
+      "file": "out/deltarune_v03/stills/00863.png",
+      "png_sha256": "54ca97232b6c5b5f7c5463d321ec8f7683195899a2c95e1f34fe126ed34aa652"
+    },
+    {
+      "frame": 889,
+      "shot": "LR09",
+      "pixel_sha256": "c17ac179887922d59c02e6b529192cc3b217f7a0cf5f093295f4828052ee9c9b",
+      "file": "out/deltarune_v03/stills/00889.png",
+      "png_sha256": "5f6ec6b00c127d415b2a2d49ca5a1fa2db9dc796c9b6fb555b7b34e14ffea3f5"
+    },
+    {
+      "frame": 890,
+      "shot": "LR10",
+      "pixel_sha256": "4ddcbbe15d3e02caae243a2c0b8fd572cfb6f27f0539f361d8854ed7e041772f",
+      "file": "out/deltarune_v03/stills/00890.png",
+      "png_sha256": "f353ad26b5238b0f2c725e13fb35b41f7b59931195007a983f89147c81f1ca86"
+    },
+    {
+      "frame": 902,
+      "shot": "LR10",
+      "pixel_sha256": "33ed010e2526849ce52e5e8b82652c9d14bc2e287b0ceffc5bb22183ca201d5d",
+      "file": "out/deltarune_v03/stills/00902.png",
+      "png_sha256": "d7cd7790cea5605c5a95506d58f2822b306e2263da5e299305de165faa2556ce"
+    },
+    {
+      "frame": 978,
+      "shot": "LR10",
+      "pixel_sha256": "81b05070ad2cfe4f39f96eac9414ebb75cca081e6386e82a52f48f3cd618a771",
+      "file": "out/deltarune_v03/stills/00978.png",
+      "png_sha256": "a54db21abe64eeb8dfe536027fa97b16833469ebfa3babeabdf4d9f7aa95e81c"
+    },
+    {
+      "frame": 1000,
+      "shot": "LR10",
+      "pixel_sha256": "2045a4eb1845ff6af13aa645e40ed043051978484eba8c49efb5daaeec092d7c",
+      "file": "out/deltarune_v03/stills/01000.png",
+      "png_sha256": "be047228541d635781f0f0026e66b8eb3591c64878f558c05eb421ae6a563098"
+    },
+    {
+      "frame": 1040,
+      "shot": "LR10",
+      "pixel_sha256": "06bd7548a1c8d1ec5356c16f1f22420df714370b449d0d30f9dac4ff0c0b56cd",
+      "file": "out/deltarune_v03/stills/01040.png",
+      "png_sha256": "e8377e80a932d864cb62a320cde2240fe96f9c8320bf93c4e841e7611cb6641d"
+    },
+    {
+      "frame": 1065,
+      "shot": "LR10",
+      "pixel_sha256": "4f3d8c0ad0003acd47114a8b1f35d46c7823848feda0061b4d6f002fcd05b172",
+      "file": "out/deltarune_v03/stills/01065.png",
+      "png_sha256": "6f5a1e69260a827ee7f3620d06ebf5a2709344f843d9e2cfbf5660eb0ad9b453"
+    },
+    {
+      "frame": 1066,
+      "shot": "LR11",
+      "pixel_sha256": "d81b887db6eebd10ec8a62ccfe69bac30155fc2b679c03ffed780930c7f27121",
+      "file": "out/deltarune_v03/stills/01066.png",
+      "png_sha256": "4d9ad296ec350e883e02d181b3307ad8bfff04d4f1611426cb64ec926e931809"
+    },
+    {
+      "frame": 1078,
+      "shot": "LR11",
+      "pixel_sha256": "27a3099a89aa855b42f000536e593905f912b8dfc36d910e3b3fe000343b1eeb",
+      "file": "out/deltarune_v03/stills/01078.png",
+      "png_sha256": "9e56d7aba58190108237a9dcfeb9efcc72f67fe57849528a21e8b08af9793fe9"
+    },
+    {
+      "frame": 1150,
+      "shot": "LR11",
+      "pixel_sha256": "faf2f4966ab007ae9bd380181a96db0f92b2babadecf0488a759c2888a6d4447",
+      "file": "out/deltarune_v03/stills/01150.png",
+      "png_sha256": "97355e720edae4058e4de2e311f617f42a984c27882df314f90751d4efef5603"
+    },
+    {
+      "frame": 1234,
+      "shot": "LR11",
+      "pixel_sha256": "8e90023b8865817278e5b81ddd34956e9df41225327ce08129ca779fb02b186c",
+      "file": "out/deltarune_v03/stills/01234.png",
+      "png_sha256": "a734ca94ad8bd176500b49397ea9051450a2948da880165b45f7a39d22e1f77f"
+    },
+    {
+      "frame": 1235,
+      "shot": "LR12",
+      "pixel_sha256": "abbbcc7d2fe0bc77ae50fbdb60bc51a0e8a1f0e38ec4be2cb60731450276f219",
+      "file": "out/deltarune_v03/stills/01235.png",
+      "png_sha256": "4898539308b80b838b499349cdd9b9e34e3b03be4072ac127646e494750f439b"
+    },
+    {
+      "frame": 1247,
+      "shot": "LR12",
+      "pixel_sha256": "753340e0e09f6fc1eca23d0fb7e8383b4e389a70849733d45b6551a775ec2b39",
+      "file": "out/deltarune_v03/stills/01247.png",
+      "png_sha256": "2ad729f4d6723384ddea3ac2711949195859082e71d310cffb0e4bee6df6f4b0"
+    },
+    {
+      "frame": 1326,
+      "shot": "LR12",
+      "pixel_sha256": "8423c9ee9a1d8038c5f9c44a4af8f46ad687bd8cae48f18b3376ac3c5001f657",
+      "file": "out/deltarune_v03/stills/01326.png",
+      "png_sha256": "e789bf6453f5fe4fca9f2a3f83a4f7ada9856b410eae92045ef53514d14900e1"
+    },
+    {
+      "frame": 1416,
+      "shot": "LR12",
+      "pixel_sha256": "06066a3b940b58b2591bfe3b00cf34fbb476cbb724c167e0bc886fa462e94587",
+      "file": "out/deltarune_v03/stills/01416.png",
+      "png_sha256": "a975c7394dea2da036218cf0818808f5f6bab17c3317d67964c325597133cd36"
+    },
+    {
+      "frame": 1417,
+      "shot": "LR13",
+      "pixel_sha256": "429fcb5ed7b05d73294fb23bde8c84cf0881691f98cc54558ea6edca5628a94d",
+      "file": "out/deltarune_v03/stills/01417.png",
+      "png_sha256": "21ee72cf613a6d643880a9104d8bde7a9415caf6a8b7d51b76b8a6fa552bb806"
+    },
+    {
+      "frame": 1429,
+      "shot": "LR13",
+      "pixel_sha256": "6a7705228abd84e91f32a57dc2255a48838385b832399229636d8b86051a0c9d",
+      "file": "out/deltarune_v03/stills/01429.png",
+      "png_sha256": "ccd0f285e2087cc1d9019670a61e11f098b0489d91a9118410c80ef6ca3fa093"
+    },
+    {
+      "frame": 1504,
+      "shot": "LR13",
+      "pixel_sha256": "85d25184d8ba5fab6e249a987e57db2cfd49cdbb5bd0d8a7624a48d0306278e2",
+      "file": "out/deltarune_v03/stills/01504.png",
+      "png_sha256": "5ed9fd181aae94e63f7a02a0ab1ff34ac9ae090b7718d7160b79e32ee483ebe1"
+    },
+    {
+      "frame": 1590,
+      "shot": "LR13",
+      "pixel_sha256": "e0bbc5d80869b523d626dd96ac75f43009c1f6708da9c605428e4e0e5d8a86f7",
+      "file": "out/deltarune_v03/stills/01590.png",
+      "png_sha256": "0e075b57ba25d01e16605a13e5b19f5290a4c79930349ecd24250899725b41bf"
+    },
+    {
+      "frame": 1591,
+      "shot": "LR14",
+      "pixel_sha256": "baf412332df672b685332eac73727407b1e9d1ea647a6e502ead0a30b5e52230",
+      "file": "out/deltarune_v03/stills/01591.png",
+      "png_sha256": "18c2565d61663a2644d99f7e0a18a873c7740d52c466853f768bdbca1efb9866"
+    },
+    {
+      "frame": 1603,
+      "shot": "LR14",
+      "pixel_sha256": "baf412332df672b685332eac73727407b1e9d1ea647a6e502ead0a30b5e52230",
+      "file": "out/deltarune_v03/stills/01603.png",
+      "png_sha256": "18c2565d61663a2644d99f7e0a18a873c7740d52c466853f768bdbca1efb9866"
+    },
+    {
+      "frame": 1637,
+      "shot": "LR14",
+      "pixel_sha256": "baf412332df672b685332eac73727407b1e9d1ea647a6e502ead0a30b5e52230",
+      "file": "out/deltarune_v03/stills/01637.png",
+      "png_sha256": "18c2565d61663a2644d99f7e0a18a873c7740d52c466853f768bdbca1efb9866"
+    },
+    {
+      "frame": 1667,
+      "shot": "LR14",
+      "pixel_sha256": "bcba06a0de59c905067b766f6bcfd6d46de5652253c54454b95a79865533d987",
+      "file": "out/deltarune_v03/stills/01667.png",
+      "png_sha256": "cce1bb5c5b28fa4c00d3437158bc0265ef06e8fa83e4733eefa0d597a610aaaa"
+    },
+    {
+      "frame": 1682,
+      "shot": "LR14",
+      "pixel_sha256": "82a805598b84a2ee462fa888b9766f4530d3259ba8fd3132c490ea8f369a9654",
+      "file": "out/deltarune_v03/stills/01682.png",
+      "png_sha256": "ab4028527a66b376cbd6d026ca7bead4cd0d75eaa26c08c367545749f7d8a28f"
+    },
+    {
+      "frame": 1718,
+      "shot": "LR14",
+      "pixel_sha256": "5bebf6aa0e25fc0ab9a7cca986603d2657e0402e2f6466aa4c74dfa65fb406ef",
+      "file": "out/deltarune_v03/stills/01718.png",
+      "png_sha256": "1fb8fe0cf33a65c047a9a673a2cdd1204a87af115ffe2d0ab312e953aa65b7ea"
+    },
+    {
+      "frame": 1773,
+      "shot": "LR14",
+      "pixel_sha256": "d14893386707cb4a67697176a78d08960c55ed2c4409bb6887bfb9ca14f46e4e",
+      "file": "out/deltarune_v03/stills/01773.png",
+      "png_sha256": "8bbb5ad5944ef8769ee4f5f86ddbca707b5af05cb4dd953ca36795c88a2abd31"
+    },
+    {
+      "frame": 1774,
+      "shot": "LR15",
+      "pixel_sha256": "0129917496011698b2d0e0ea54a2282f49ad49571e640588499a67f1183aa421",
+      "file": "out/deltarune_v03/stills/01774.png",
+      "png_sha256": "f25bb1fbbf63fe053cd916f3c77503ecaaa202c987f92474cf8099a1f140372f"
+    },
+    {
+      "frame": 1786,
+      "shot": "LR15",
+      "pixel_sha256": "3aa9aa559b1e08d11966f6a3bc2adbd4922f8afff9359c792b030483e3b583e0",
+      "file": "out/deltarune_v03/stills/01786.png",
+      "png_sha256": "c5a75426f5cfb22afaab6b765b95ce5a4a79a0a195efa55e453e301a5dc9ede8"
+    },
+    {
+      "frame": 1862,
+      "shot": "LR15",
+      "pixel_sha256": "db48513941137f5bda30b1c1434073fb815e0ec7f5dab536ba6020dfd9df1bfe",
+      "file": "out/deltarune_v03/stills/01862.png",
+      "png_sha256": "82dffe9f9e19eadb738b20ff840a5d019b8d674027c1479cdeb910e01462af1e"
+    },
+    {
+      "frame": 1865,
+      "shot": "LR15",
+      "pixel_sha256": "562db26984e35d8c42f1e1a4493248d64e6b4864aa4667fe78396eccc4ea2218",
+      "file": "out/deltarune_v03/stills/01865.png",
+      "png_sha256": "db0b7c1fc6bb8d11c07800e995f67b4064df84f38c98186e3682b1a65fd074be"
+    },
+    {
+      "frame": 1902,
+      "shot": "LR15",
+      "pixel_sha256": "bc513125f6d1879b785108656d488c376aa0334c1f78197f0791ebb48d167a19",
+      "file": "out/deltarune_v03/stills/01902.png",
+      "png_sha256": "c60faa639f8fcc1b8f36feff941b2f31c12ca08f205d0674df6a8dc85affc8fe"
+    },
+    {
+      "frame": 1950,
+      "shot": "LR15",
+      "pixel_sha256": "bc513125f6d1879b785108656d488c376aa0334c1f78197f0791ebb48d167a19",
+      "file": "out/deltarune_v03/stills/01950.png",
+      "png_sha256": "c60faa639f8fcc1b8f36feff941b2f31c12ca08f205d0674df6a8dc85affc8fe"
+    },
+    {
+      "frame": 1951,
+      "shot": "LR16",
+      "pixel_sha256": "428776c6491ee8e957c8dc8a7d9640ba1325e06c57df4a71ef0f01e78f922f74",
+      "file": "out/deltarune_v03/stills/01951.png",
+      "png_sha256": "00816f63435f16c084b0fd2b7c69420cdfba545caf3b528cfc6ac752441c640d"
+    },
+    {
+      "frame": 1963,
+      "shot": "LR16",
+      "pixel_sha256": "3ff3be36ef14f4e3c0513ed1640e87aa8ed00880f19738c6109147dc08a38a43",
+      "file": "out/deltarune_v03/stills/01963.png",
+      "png_sha256": "5565a860ba4914c254ec2be2b23fa46f07aa0ccdd4f92832ed07e610a842c61c"
+    },
+    {
+      "frame": 1997,
+      "shot": "LR16",
+      "pixel_sha256": "b36c8cbbdc8d6b4b6daafe0b12739713a715210edc7d2696e7d241075a229d1a",
+      "file": "out/deltarune_v03/stills/01997.png",
+      "png_sha256": "7da50689e56ae94f06f272fe4f0f65c461d1c9b262002c479882f68099659b45"
+    },
+    {
+      "frame": 2042,
+      "shot": "LR16",
+      "pixel_sha256": "f1ec08fdd2288c28f07d54f13618f55e92e703a2465e616ba8b924be0669c124",
+      "file": "out/deltarune_v03/stills/02042.png",
+      "png_sha256": "061155a3c80264877afbd6e2800f4eabbc4d5a22f952484ecd2bf972e8a4e04a"
+    },
+    {
+      "frame": 2043,
+      "shot": "LR17",
+      "pixel_sha256": "c1167218f7e8812e693724e192041b4ef9d0fb6a1278b7e3c5e448fd6daa157b",
+      "file": "out/deltarune_v03/stills/02043.png",
+      "png_sha256": "39a3ddb87651b57fc74491079b756d582e563e6d321a4c617db624f9547e473c"
+    },
+    {
+      "frame": 2055,
+      "shot": "LR17",
+      "pixel_sha256": "c1167218f7e8812e693724e192041b4ef9d0fb6a1278b7e3c5e448fd6daa157b",
+      "file": "out/deltarune_v03/stills/02055.png",
+      "png_sha256": "39a3ddb87651b57fc74491079b756d582e563e6d321a4c617db624f9547e473c"
+    },
+    {
+      "frame": 2080,
+      "shot": "LR17",
+      "pixel_sha256": "c1167218f7e8812e693724e192041b4ef9d0fb6a1278b7e3c5e448fd6daa157b",
+      "file": "out/deltarune_v03/stills/02080.png",
+      "png_sha256": "39a3ddb87651b57fc74491079b756d582e563e6d321a4c617db624f9547e473c"
+    },
+    {
+      "frame": 2084,
+      "shot": "LR17",
+      "pixel_sha256": "b70038dae5b1b0d751720d32a50dce6d17ebbf06ca2152efbca99bcd3f9068e8",
+      "file": "out/deltarune_v03/stills/02084.png",
+      "png_sha256": "c5acdd53396237ed8d27e10e00ad06839e34259a6379ae55288df3d200c6b00e"
+    },
+    {
+      "frame": 2124,
+      "shot": "LR17",
+      "pixel_sha256": "f733affeaa42530d7f3b0994ccd535bd6c19b5c20709ae2929e4fe815f29ce5c",
+      "file": "out/deltarune_v03/stills/02124.png",
+      "png_sha256": "5fa65b976df2b175c89ed266a0e9d35ac135467d7f159b172887d12aca0c2da9"
+    },
+    {
+      "frame": 2125,
+      "shot": "LR18",
+      "pixel_sha256": "5664c4ada43fa71350a9e6780c59f64b3a2249e52ad674dc4798c6f72a860b03",
+      "file": "out/deltarune_v03/stills/02125.png",
+      "png_sha256": "a08d7b3dd64b4ca1b570192e826ea533b6ee043ae406c8ca5dce14cbd47d69d4"
+    },
+    {
+      "frame": 2137,
+      "shot": "LR18",
+      "pixel_sha256": "179e2a15fa88b0c987f5057079105ea7169a6e8810ffad4c7eb9c3995eb85fc1",
+      "file": "out/deltarune_v03/stills/02137.png",
+      "png_sha256": "b05102cfb10c0a005ba0850efce62afa48929a35ea429dd512be9c0fc0a7d68c"
+    },
+    {
+      "frame": 2253,
+      "shot": "LR18",
+      "pixel_sha256": "cb780d291fb414b158f69c0f49cc9259271df2bd9e157a657a7641ed17895673",
+      "file": "out/deltarune_v03/stills/02253.png",
+      "png_sha256": "965e45d1910b63d051c0a6827e8f1e6a7d585f65d970745903666c505f46723e"
+    },
+    {
+      "frame": 2381,
+      "shot": "LR18",
+      "pixel_sha256": "e1ff120650c993794a50d8bcfeea2b768dcd555b26d25ab30ef21b2fa5ec417a",
+      "file": "out/deltarune_v03/stills/02381.png",
+      "png_sha256": "c8d98ab5156d36b6760cf27c1a53984f396eb1ab3d353099dd4151806c19e90e"
+    },
+    {
+      "frame": 2382,
+      "shot": "LR19",
+      "pixel_sha256": "f8f308156a90f05cff84146a4d08cb38af643b1ed88e1d1763f7f573f07b4938",
+      "file": "out/deltarune_v03/stills/02382.png",
+      "png_sha256": "a275fa5f2f4fa52712209078f98e6fa1513b114f164a141d78a638ceea5eac84"
+    },
+    {
+      "frame": 2394,
+      "shot": "LR19",
+      "pixel_sha256": "f8f308156a90f05cff84146a4d08cb38af643b1ed88e1d1763f7f573f07b4938",
+      "file": "out/deltarune_v03/stills/02394.png",
+      "png_sha256": "a275fa5f2f4fa52712209078f98e6fa1513b114f164a141d78a638ceea5eac84"
+    },
+    {
+      "frame": 2516,
+      "shot": "LR19",
+      "pixel_sha256": "a931a08c1dd93b9b8201d12b580df83fdfd3a7ffaea4efc6285bed44c4cb3369",
+      "file": "out/deltarune_v03/stills/02516.png",
+      "png_sha256": "ff40821e2ca85b896b271ee16ecf663bdc2b34343e736ff16ac1aa96f9e7d161"
+    },
+    {
+      "frame": 2649,
+      "shot": "LR19",
+      "pixel_sha256": "2a8ce88fe0d57166c8c75b4689ee7aa546c07f1860df545639995a0f69998bf0",
+      "file": "out/deltarune_v03/stills/02649.png",
+      "png_sha256": "9040f2857c4a00711f7c57f19bfb3ae292cc1379a602556e0e683eec021db545"
+    },
+    {
+      "frame": 2650,
+      "shot": "LR20",
+      "pixel_sha256": "77a658a09759e68c9fe325bb3f50a9e9f85fec4fbb1e8651eb51361db0c1f85c",
+      "file": "out/deltarune_v03/stills/02650.png",
+      "png_sha256": "33677c1544ccade0740b21f1126209236c9e5de05161ec386a20f375088d1ab3"
+    },
+    {
+      "frame": 2652,
+      "shot": "LR20",
+      "pixel_sha256": "da16da8b52382d9eafcbdff7ae66905cd1aa870f84f0369b5f0e8462602b1ee7",
+      "file": "out/deltarune_v03/stills/02652.png",
+      "png_sha256": "9ffe9240a92f3605aa406edbeabcbfe68369a9448005ef5636bd709f22197808"
+    },
+    {
+      "frame": 2654,
+      "shot": "LR20",
+      "pixel_sha256": "1c14a3ca037abe889cae83647be0f31262c8814b6688d738bf40da49859fbf78",
+      "file": "out/deltarune_v03/stills/02654.png",
+      "png_sha256": "9806cc8be1a51c36d9e81b47a125624745fcacb17e8a62abebb4268ae10b58b7"
+    },
+    {
+      "frame": 2656,
+      "shot": "LR20",
+      "pixel_sha256": "e8d3ede73fb7802929b483c5a4443e6406b3e080917359d89882adb408bddf85",
+      "file": "out/deltarune_v03/stills/02656.png",
+      "png_sha256": "d6d2c90481910af481457ea04410c04664df40bc418977e4e2448403c70a0582"
+    },
+    {
+      "frame": 2658,
+      "shot": "LR20",
+      "pixel_sha256": "6b83bd2b4022db32afb165d5b2ae8613bb680d3eb1943b241f242db9cf9b2189",
+      "file": "out/deltarune_v03/stills/02658.png",
+      "png_sha256": "12c1ba65508b22b1072e0ddc89b35985aa9970c2e9fcec144c562f1c0df8ad4e"
+    },
+    {
+      "frame": 2660,
+      "shot": "LR20",
+      "pixel_sha256": "de07b6e08bb62eef95e0dc624bca102da640e58a1655172a752d2c6a5f9349d2",
+      "file": "out/deltarune_v03/stills/02660.png",
+      "png_sha256": "dfee7fc16eb98b92e9339a466b9e0165f274e0d27803e6765acf97f2dc682b68"
+    },
+    {
+      "frame": 2662,
+      "shot": "LR20",
+      "pixel_sha256": "6010c7a2c09387ea024029ab643e94ed2715a8a895de01d2487710fc69e7f9ec",
+      "file": "out/deltarune_v03/stills/02662.png",
+      "png_sha256": "b7cb86b31155c2888caa137c31007541d88d1408fb0af911518aa75549afc8f0"
+    },
+    {
+      "frame": 2664,
+      "shot": "LR20",
+      "pixel_sha256": "309d188b4be1d339ba22f98a5637731d41f3dbeb16b4aec62b8c62194af1c90f",
+      "file": "out/deltarune_v03/stills/02664.png",
+      "png_sha256": "92aea1113a144f89b86908c811315b89b90cf3039ede0678a2b2f0a04e6af285"
+    },
+    {
+      "frame": 2666,
+      "shot": "LR20",
+      "pixel_sha256": "a7d07bd1e4563c235ed2af61e448bececb14e3c09fe55cf10c622e7f27240ffd",
+      "file": "out/deltarune_v03/stills/02666.png",
+      "png_sha256": "49a68503da8903720a6b77f3c0ceee9afebc4f43b6b20fb84450d565c54326c5"
+    },
+    {
+      "frame": 2668,
+      "shot": "LR20",
+      "pixel_sha256": "cb21e875f2d50d0e040fcf9ce156287b1792f33e7cadafcb4cf73450d36473d5",
+      "file": "out/deltarune_v03/stills/02668.png",
+      "png_sha256": "45e4b212e374a9e97387318a91fb5cd8d65c39da36c4dda755270e26465ffbc4"
+    },
+    {
+      "frame": 2670,
+      "shot": "LR20",
+      "pixel_sha256": "b3c52a59a3a4f29d64ded15c3bbc2ff876343fa35ce1417e7cd982671fa04ab2",
+      "file": "out/deltarune_v03/stills/02670.png",
+      "png_sha256": "f5f304a02dfd23a4bf421017305a2603a6c44a45f324c22548bdb21a988523fa"
+    },
+    {
+      "frame": 2672,
+      "shot": "LR20",
+      "pixel_sha256": "8f6d96e8b48ffff96a67116a8ed84a2c8b6a7a671058f0cf754700d198ce6273",
+      "file": "out/deltarune_v03/stills/02672.png",
+      "png_sha256": "e3736cd497c978f5fca5fbe68a27ab1f887cf34ded24565ee74a0d90d185402c"
+    },
+    {
+      "frame": 2674,
+      "shot": "LR20",
+      "pixel_sha256": "b7a72e4fade653c3c98f30e33cc08e55ca29f8e5284948f92ae3f451de3b580c",
+      "file": "out/deltarune_v03/stills/02674.png",
+      "png_sha256": "6a49b6b0c9900c2f5cc3a8f7b08a4918280aadcc24a0634975a13802545c9e12"
+    },
+    {
+      "frame": 2676,
+      "shot": "LR20",
+      "pixel_sha256": "adf52501113c99657bedc65bca1f2152778849cee01345d25e27f06a2100b647",
+      "file": "out/deltarune_v03/stills/02676.png",
+      "png_sha256": "7fa581cb455d53cd353e9c5ee752b2843405404c3fbc5eaa0379be37f5f33528"
+    },
+    {
+      "frame": 2678,
+      "shot": "LR20",
+      "pixel_sha256": "070c37b4ceeaad139db3edd87e8d7cd4635d5f13ee04d31b987cc29a0a35b822",
+      "file": "out/deltarune_v03/stills/02678.png",
+      "png_sha256": "ae6cc58836db8e4c4ff42848d123492024b0c97a444e44cd75ed4ba13b61c092"
+    },
+    {
+      "frame": 2680,
+      "shot": "LR20",
+      "pixel_sha256": "4251de0dcdd185efdd22699677fb9a92f99e4c10e289a059c0665f510306db26",
+      "file": "out/deltarune_v03/stills/02680.png",
+      "png_sha256": "666f1db21f451a0413f0405c8f20c0a33db2e6418cca166daeec7c20b75cd506"
+    },
+    {
+      "frame": 2682,
+      "shot": "LR20",
+      "pixel_sha256": "08c445d66a1a0c9a5b89d5efd578156d48a685fcfe78f5eb4a6ae830874df467",
+      "file": "out/deltarune_v03/stills/02682.png",
+      "png_sha256": "1d8405d77a8ff2dac9a6bb39924c8537b1766de38cf950b8909a6f3496a4e2b7"
+    },
+    {
+      "frame": 2684,
+      "shot": "LR20",
+      "pixel_sha256": "08a48f59b23d5bf76d164e4ffb46fc43e5d07e4fddbdca0827a958e178988d6f",
+      "file": "out/deltarune_v03/stills/02684.png",
+      "png_sha256": "69e46f0104e1400b7dfe3b66ec7e0acb6feb2cee6ec99f2f29dd51944deacc5d"
+    },
+    {
+      "frame": 2686,
+      "shot": "LR20",
+      "pixel_sha256": "2971bd0718e5a389b71c990f42deeaa7d96b1a0f1bb0d531ad09cbef4e561dc8",
+      "file": "out/deltarune_v03/stills/02686.png",
+      "png_sha256": "d1611aa4ef7ffbf609c4734bfe1401424a11655af2295d54964a52bdc7eea197"
+    },
+    {
+      "frame": 2688,
+      "shot": "LR20",
+      "pixel_sha256": "f731dab73df84f4d988b248c758fd69ecc4cf18de1f29f28db711bfe5e6460b5",
+      "file": "out/deltarune_v03/stills/02688.png",
+      "png_sha256": "f573f662cbe74079661d06976122c76601ee668f9c0dd3c50b8441eaa2f10271"
+    },
+    {
+      "frame": 2690,
+      "shot": "LR20",
+      "pixel_sha256": "92a61e16c5a7a3078a8adabca8c5c1e65e162345642c90c51029513fffd71235",
+      "file": "out/deltarune_v03/stills/02690.png",
+      "png_sha256": "0773c85459055ccf6fd194e9fa395cf8587fef306cd82c3adb49821808f787da"
+    },
+    {
+      "frame": 2692,
+      "shot": "LR20",
+      "pixel_sha256": "4904a2ee7dd217cb8e7ef8e34196f538e8b4bab98118ca08b3ed57c7e7bfca06",
+      "file": "out/deltarune_v03/stills/02692.png",
+      "png_sha256": "5177fcb40264a1694f4ae3cf15f4453d6d17ee559a97c5b4e2b3a66bf9aabc6c"
+    },
+    {
+      "frame": 2693,
+      "shot": "LR20",
+      "pixel_sha256": "664c3d626408054e101c7bcd4720e4428b2346d095df53c89dc33b0175d8cfd7",
+      "file": "out/deltarune_v03/stills/02693.png",
+      "png_sha256": "04b8bb43600a2e07e677fe8aecaf314348fd2057acc8722000c0e1802c0f5daf"
+    },
+    {
+      "frame": 2728,
+      "shot": "LR20",
+      "pixel_sha256": "0d850b7e47476bfa1e7eb2d4c5c18b30c8cc23cd281367bafaf34459d3cc65eb",
+      "file": "out/deltarune_v03/stills/02728.png",
+      "png_sha256": "455f87528a6262f66492f051398c885b266b477e9a25bbd7d76244e185585b11"
+    },
+    {
+      "frame": 2744,
+      "shot": "LR20",
+      "pixel_sha256": "8478ed02629242a689304dba7ea73afa2545fe5f53017f0b496da12902eaf7db",
+      "file": "out/deltarune_v03/stills/02744.png",
+      "png_sha256": "09cf46affca3373b6bcdaa98b3f87e1ea9aecd7d79dffe6d46b3786af948f6c1"
+    },
+    {
+      "frame": 2754,
+      "shot": "LR20",
+      "pixel_sha256": "de1d89daf62f3bb27ded322126629196fe78fcb7abf1610eabd560f0220bf9c6",
+      "file": "out/deltarune_v03/stills/02754.png",
+      "png_sha256": "10ddc2569f7ce08ce28656b7dc3d9d936134fafb6d689034d396db7f982c407d"
+    },
+    {
+      "frame": 2784,
+      "shot": "LR20",
+      "pixel_sha256": "7babcb8389ccbc8b4e9d0d01a650858b7505766e4f8662bbe5a837a920b3e702",
+      "file": "out/deltarune_v03/stills/02784.png",
+      "png_sha256": "fc94afb6ac2c39e97a9304367561cc2ef54ab45222de6a30aed22074752cb5e3"
+    },
+    {
+      "frame": 2837,
+      "shot": "LR20",
+      "pixel_sha256": "d75345459992f72849a2f35b26f52786f6e9837e7f02150b0b52ae230fb83cda",
+      "file": "out/deltarune_v03/stills/02837.png",
+      "png_sha256": "6fc8d4ae2a738b7877dcff07c953c97d4a0a1cac54af19d8f53bab478bfca46c"
+    },
+    {
+      "frame": 2838,
+      "shot": "LR21",
+      "pixel_sha256": "5d18833e0e15f703a06d185b2c7bfd3b09ab1dca031010827e0fbd2dae7d34f8",
+      "file": "out/deltarune_v03/stills/02838.png",
+      "png_sha256": "3b2c2d281e5cd950a359e3da68ba33dca5bfbd02834c03d5b17fe8ab38fa18e3"
+    },
+    {
+      "frame": 2850,
+      "shot": "LR21",
+      "pixel_sha256": "345a84d059c0fb9abc85af22b726ffc3c5fb1cce4206dbc1be42a53a49c5eda6",
+      "file": "out/deltarune_v03/stills/02850.png",
+      "png_sha256": "31d6a065be204af8b0474d2c4c0567199f685837b3c8b5a4033b44f10efedbc5"
+    },
+    {
+      "frame": 2885,
+      "shot": "LR21",
+      "pixel_sha256": "9a805f3148586c401a4080c7ab41a8047d27e1b2f79121146d0b7082014a98e4",
+      "file": "out/deltarune_v03/stills/02885.png",
+      "png_sha256": "7d17f77afd071ac1a11ae162df86258e6f7cf068a8c0b57af44cd56a4b1de0fe"
+    },
+    {
+      "frame": 2926,
+      "shot": "LR21",
+      "pixel_sha256": "1f46657a1ef5913aaab68e2f226f521581ea2f221155b0cfa6b679b0ae5cf2b9",
+      "file": "out/deltarune_v03/stills/02926.png",
+      "png_sha256": "05a122f741c82356241abced2157cc16b487088f974b0a8933fd60105297cb02"
+    },
+    {
+      "frame": 2928,
+      "shot": "LR21",
+      "pixel_sha256": "23f80d8ba618ac36cb35043a6aba7e89795ded833f7385266b291503d37ea879",
+      "file": "out/deltarune_v03/stills/02928.png",
+      "png_sha256": "9018dc774f8567920c4b456d189aa83389a071624984ca86bda46045c95a855a"
+    },
+    {
+      "frame": 3013,
+      "shot": "LR21",
+      "pixel_sha256": "3d891f927d4090130fc9512f06a8b4e0d434245bd1ef887d7bc5e3498fce45f2",
+      "file": "out/deltarune_v03/stills/03013.png",
+      "png_sha256": "c56d694d5e14d33f556577065ba567fa9b961632ac8ea36dffefee359890bfd0"
+    },
+    {
+      "frame": 3014,
+      "shot": "LR22",
+      "pixel_sha256": "621b9989256362b251911ee3f9878f8cc5576f435ef85b38e08fa3224071a63f",
+      "file": "out/deltarune_v03/stills/03014.png",
+      "png_sha256": "9566328ec2ac2bd593b99c5087846c1eaf0ceb9c86e837ef709d8b9d7cbc297e"
+    },
+    {
+      "frame": 3026,
+      "shot": "LR22",
+      "pixel_sha256": "3212cda4b1f428e86405c9676b561d6737dedd86fd56b6b57206a412ff241574",
+      "file": "out/deltarune_v03/stills/03026.png",
+      "png_sha256": "a143817ae43bde60b4675fc2c4329a0fde3a5354642fa985a755a27ac998b04e"
+    },
+    {
+      "frame": 3093,
+      "shot": "LR22",
+      "pixel_sha256": "c72e214c3afe857da70145c371c6426e37fe71d8eeb82da22bce1bd621f76a52",
+      "file": "out/deltarune_v03/stills/03093.png",
+      "png_sha256": "69b32f2cb624ca0625824a56dedba50cb50baa583a94b6ad96f03e41cffa4b19"
+    },
+    {
+      "frame": 3123,
+      "shot": "LR22",
+      "pixel_sha256": "da7494c05062d5bc907ad5f06fe01197f1c625c9eda66509441e88e85a1632a6",
+      "file": "out/deltarune_v03/stills/03123.png",
+      "png_sha256": "686337a65d988e3bed61e8b13aafa4bb52b46b29fa28f5cd0a88aea1b82d6e01"
+    },
+    {
+      "frame": 3149,
+      "shot": "LR22",
+      "pixel_sha256": "ad1f949f623e230f0bc603a9b5b38d650ac234b545d45f7b71edb3683835673b",
+      "file": "out/deltarune_v03/stills/03149.png",
+      "png_sha256": "78ce9201c5ba00bb4433d61944a2574abac1d1d03815ffe54cc389c551c8ffa7"
+    },
+    {
+      "frame": 3231,
+      "shot": "LR22",
+      "pixel_sha256": "a2b7b5b22d99d442cb8b1c8edbee3e4897c5535e49f90c52bf2d1cdffe06eead",
+      "file": "out/deltarune_v03/stills/03231.png",
+      "png_sha256": "eade6051092c87fc8beecf252819a0884ed8df4399cbb256480e00a9bbc83707"
+    },
+    {
+      "frame": 3232,
+      "shot": "LR23",
+      "pixel_sha256": "ebf7ce6e7bb10fc0abc3a108ca675dfc48cf3f02d10002f7076c48d2ab939c81",
+      "file": "out/deltarune_v03/stills/03232.png",
+      "png_sha256": "de0edc187ae2c147b1e092171d820c76b710aedbe44d2a1703487b087f498aea"
+    },
+    {
+      "frame": 3244,
+      "shot": "LR23",
+      "pixel_sha256": "d5cf2fa24745bafba9bc1aa32b86479a2fe850ca8989ab392fb007ec4c12a6cf",
+      "file": "out/deltarune_v03/stills/03244.png",
+      "png_sha256": "9febbb6d8f94268136f83c8c138635248b999433e70e6bb6037a6c51801c20ea"
+    },
+    {
+      "frame": 3390,
+      "shot": "LR23",
+      "pixel_sha256": "93d053603b017e3b3720a4e4a65493e51e42a3b2581d87aab2b853d07e4220ba",
+      "file": "out/deltarune_v03/stills/03390.png",
+      "png_sha256": "f7b088abf011e3e1bf9c11c2f13a82731904a71ab925b9bd84cc3660e7e940c2"
+    },
+    {
+      "frame": 3548,
+      "shot": "LR23",
+      "pixel_sha256": "b9c9614453dc1b7f934125bb448447277e9fc849e1e86fcc43fe3e760871977c",
+      "file": "out/deltarune_v03/stills/03548.png",
+      "png_sha256": "1a1530ae3e72fd1fa48d9ed31e76239d69ff7088c0f69d781e05c159b356df96"
+    },
+    {
+      "frame": 3549,
+      "shot": "LR24",
+      "pixel_sha256": "fe367ea0efb3a0fe4dc387c4dec45f70c54076f1bc5fe32b1227bd5fe5d9c4ef",
+      "file": "out/deltarune_v03/stills/03549.png",
+      "png_sha256": "e114516dd0cf505897b4979e6ebf111c9a1546279415690ecf53412276fafa87"
+    },
+    {
+      "frame": 3560,
+      "shot": "LR24",
+      "pixel_sha256": "c4f9b6b1f989204a1e6acb092827ed4abbe7902cd4ae38d313f55246dcc4e749",
+      "file": "out/deltarune_v03/stills/03560.png",
+      "png_sha256": "3969030e3af4257b1866ebdeb1ed274750369d47b87d7ed1d1226d5e65a29721"
+    },
+    {
+      "frame": 3561,
+      "shot": "LR24",
+      "pixel_sha256": "ac4f79881f00d9dc55b8a862d857081eb62018289df53f22ff02ecb1ddb3100e",
+      "file": "out/deltarune_v03/stills/03561.png",
+      "png_sha256": "d2bc1b7c7b445f463636ee4d75b24f9a7e84c5d24be3a9849a13683d781fc3b4"
+    },
+    {
+      "frame": 3580,
+      "shot": "LR24",
+      "pixel_sha256": "183fe09faf8e543ab002f02171c022f22573fa60109a8ec57fd8c0675bed0e5f",
+      "file": "out/deltarune_v03/stills/03580.png",
+      "png_sha256": "ff6f039031fd00769b607a56f0407dc15fd4457d1a385a353533ed9cd78208c6"
+    },
+    {
+      "frame": 3605,
+      "shot": "LR24",
+      "pixel_sha256": "0cb1a6f943cf91e3350e0e7802758ef324c55ef0d493685ea5e7868c3005fdbf",
+      "file": "out/deltarune_v03/stills/03605.png",
+      "png_sha256": "0937025df30ed3319a2b0de45959efd8ee39d0fad3aada8a9367fb111f87526b"
+    },
+    {
+      "frame": 3629,
+      "shot": "LR24",
+      "pixel_sha256": "1b7d3794a72f6e9cae7de53bcc8c878bf57b39c8f185d18b243ee407a8ec973f",
+      "file": "out/deltarune_v03/stills/03629.png",
+      "png_sha256": "abe61e6d7de8c0285e33c54cc241cc5a66b5ac62b6d646f765e0ab5c3f45a492"
+    },
+    {
+      "frame": 3651,
+      "shot": "LR24",
+      "pixel_sha256": "132bcf825ba6e121beb04d10297794732352e03a694a99a078a7ace7cdae5990",
+      "file": "out/deltarune_v03/stills/03651.png",
+      "png_sha256": "319bfa59e18df73f1de78432e1ccf11bc764f66271d180fa9cace34e80a8913b"
+    },
+    {
+      "frame": 3673,
+      "shot": "LR24",
+      "pixel_sha256": "5e10f81f193c2ca57b9b9f1732c9a10e1c9fa84d37bdbe9eb3a14b8d7d756bae",
+      "file": "out/deltarune_v03/stills/03673.png",
+      "png_sha256": "8f291704b091db0ee5a037d9b04154227dd5708b96e6d43cefb793222788f0b8"
+    },
+    {
+      "frame": 3685,
+      "shot": "LR24",
+      "pixel_sha256": "dee993d98de6794bd0b6136f5610a513effa0e6b9d61979976104ecd587ae5b9",
+      "file": "out/deltarune_v03/stills/03685.png",
+      "png_sha256": "a793255e493c62f523e65243910eb1e82785de6421c369b11850dd8374eb8442"
+    },
+    {
+      "frame": 3693,
+      "shot": "LR24",
+      "pixel_sha256": "8b98ed7230708c00f4aa12a4b8dbe8d3cbd91d7d7c42d198b9cf16d7077f26ba",
+      "file": "out/deltarune_v03/stills/03693.png",
+      "png_sha256": "558d474d7edab6ac34938d8fa2f297a030ae3a8591e152e204c4c2b0c032c76f"
+    },
+    {
+      "frame": 3716,
+      "shot": "LR24",
+      "pixel_sha256": "36b6778f91da920a9e2d0c83490659be8d699833a60d0fced68460049d2e5448",
+      "file": "out/deltarune_v03/stills/03716.png",
+      "png_sha256": "ebd2cde96c2df19f53de0c672adfc2b06e1d570f71896e44fe7f752a09a147e2"
+    },
+    {
+      "frame": 3738,
+      "shot": "LR24",
+      "pixel_sha256": "7629a221a005d506457b9401581d618b1330de78b9aa39caecdca4ae9ef76502",
+      "file": "out/deltarune_v03/stills/03738.png",
+      "png_sha256": "494333f79465871af48a7012589d6537d0d88ae651c0fa2bea8973443c9021c9"
+    },
+    {
+      "frame": 3760,
+      "shot": "LR24",
+      "pixel_sha256": "76b0c5e8b7a758977b36f8348b4cf4ed27dfd8854d6ad3d988f4a58ef0380a0d",
+      "file": "out/deltarune_v03/stills/03760.png",
+      "png_sha256": "da969428c79db4fd242fac3100ae4149b0655ab6960320d387442e7697fb440c"
+    },
+    {
+      "frame": 3784,
+      "shot": "LR24",
+      "pixel_sha256": "2e9ea2629b946a00ff168258994f5e91b7472547c4c19d3c06aabb44259966e4",
+      "file": "out/deltarune_v03/stills/03784.png",
+      "png_sha256": "9bfc533e4dcc57e3395c2abc728327fb03be6cf0c3c0ec33c7b31f2d381d380c"
+    },
+    {
+      "frame": 3806,
+      "shot": "LR24",
+      "pixel_sha256": "c39d6652b418b8190b5711fca8dca378da4bd5da18e5c5497fc029fdd462e3ff",
+      "file": "out/deltarune_v03/stills/03806.png",
+      "png_sha256": "d773d29e3b38c917568a37b76379358fe0da18b5714b6acc5f0353619b17fc87"
+    },
+    {
+      "frame": 3820,
+      "shot": "LR24",
+      "pixel_sha256": "d7da4a33715d2bcc7bf1b86935e36a8bf1af325a6cf463b2dfc27941def8992f",
+      "file": "out/deltarune_v03/stills/03820.png",
+      "png_sha256": "65ed66da0fff2d53b9527fcbebce73f735ec8867c1e62908a658a7f024a0f3e7"
+    },
+    {
+      "frame": 3821,
+      "shot": "LR25",
+      "pixel_sha256": "2824bba3a475f88e95bb198c1d7e41b4fd490ae402bc9d3c518e96152b3d941b",
+      "file": "out/deltarune_v03/stills/03821.png",
+      "png_sha256": "812dfe885148e5bf75c90ba88fc26ae34dd45cd9d34b50701716c57fa0a23e62"
+    },
+    {
+      "frame": 3833,
+      "shot": "LR25",
+      "pixel_sha256": "56b089ae4449c7de3be11b74e395c8c09b047fd7314cce28f4f9417c7c9aa5a6",
+      "file": "out/deltarune_v03/stills/03833.png",
+      "png_sha256": "14a3cc32a14f86808da9f62dcd6c02a9482854944ada7415483e608b10ea92fb"
+    },
+    {
+      "frame": 3861,
+      "shot": "LR25",
+      "pixel_sha256": "b22f294ace1f3dded7ade8f3a3be5acc4bcbcf87e35e22ef21285ad2026cc2a5",
+      "file": "out/deltarune_v03/stills/03861.png",
+      "png_sha256": "57ce8ffda33d6f2c1262b5d53e1ffb5009857aea17f4fca36f7252c87b1de8f3"
+    },
+    {
+      "frame": 3901,
+      "shot": "LR25",
+      "pixel_sha256": "4ae70b69bcc37ab5c4db4445920dbc27cac3f285d22ebebce47a763feb317a46",
+      "file": "out/deltarune_v03/stills/03901.png",
+      "png_sha256": "42bf8fbcd6948a298aa9a2d31b3604e7df278291f51aca5246c12ba401ed4fea"
+    },
+    {
+      "frame": 3902,
+      "shot": "LR26",
+      "pixel_sha256": "f90da8ef3842f2f047135366702f40eb8b571be09707fec1f4ce93c6b8fede96",
+      "file": "out/deltarune_v03/stills/03902.png",
+      "png_sha256": "31824d94f65063c3c5388d85b67aaa55dfd1668fda092cf8c47d397778c62a59"
+    },
+    {
+      "frame": 3914,
+      "shot": "LR26",
+      "pixel_sha256": "32ba8b15a419ca5e071fbfd6a9bae38bfe06436f0ae974b483ab75ec4dc1bc2f",
+      "file": "out/deltarune_v03/stills/03914.png",
+      "png_sha256": "eaf4865501a0a1b1e8bcdb81c8718a734162e3e6feaaf7d5ec781ad60c18f6a9"
+    },
+    {
+      "frame": 3915,
+      "shot": "LR26",
+      "pixel_sha256": "5df770d350c0e7093250d0021b5681e922eea566f7a48d20c2849dda14b6bf28",
+      "file": "out/deltarune_v03/stills/03915.png",
+      "png_sha256": "1a13bf8bbc8f4c6339da8168b38a7ce2fa698449326e7a33b66d61b75be0e08f"
+    },
+    {
+      "frame": 3938,
+      "shot": "LR26",
+      "pixel_sha256": "b4712e0b88bf3c54798ef9eec3301727ec0bd4a5eab87e453ec459da69e1266f",
+      "file": "out/deltarune_v03/stills/03938.png",
+      "png_sha256": "3664fa52b12c07013ac942a1ed80c142af782cd9ac79248cfc3cd6544ae32f33"
+    },
+    {
+      "frame": 3945,
+      "shot": "LR26",
+      "pixel_sha256": "6db42657456ff560094c2ce3ec792a6f074ccfbffbce5c2e59b0277e3e481ae7",
+      "file": "out/deltarune_v03/stills/03945.png",
+      "png_sha256": "f769f058b49929c3ffb656b1cb34bf6c29657533806cdb889a488d7f16e0b14e"
+    },
+    {
+      "frame": 3962,
+      "shot": "LR26",
+      "pixel_sha256": "1094e3aec8c97c35e2dd716ebc7a0a5bd793de240d45f834db3d1a1ae9f7457a",
+      "file": "out/deltarune_v03/stills/03962.png",
+      "png_sha256": "626d7f84db65fd4cfba228d8d4267640d48f915abf5379a0ccc15d02214a9b8c"
+    },
+    {
+      "frame": 3987,
+      "shot": "LR26",
+      "pixel_sha256": "9224a8fe77cebb978e1773f5af2e736619ccbf8c0f89a0ce6394ea156c008c32",
+      "file": "out/deltarune_v03/stills/03987.png",
+      "png_sha256": "a669aa3605df307e854eec1741ec3317afc01e882e29a7d559e722ed0ed90909"
+    },
+    {
+      "frame": 3988,
+      "shot": "LR27",
+      "pixel_sha256": "5b31d8becdf74f2b62acbf37dc6f28e9a61d1a8f5774fd9d850c2e943ff8c985",
+      "file": "out/deltarune_v03/stills/03988.png",
+      "png_sha256": "db8e14873ee3c9098a43b0070a49bafe4487f33e36f41bf1be3c1a808a494cee"
+    },
+    {
+      "frame": 4000,
+      "shot": "LR27",
+      "pixel_sha256": "6ea39af0a4411e1b11033f9b9eb8f0b6e34d0ae01d9c423f84219e02c25b0367",
+      "file": "out/deltarune_v03/stills/04000.png",
+      "png_sha256": "e75cb63346df4a90639e3afebb5aed3d32e748bb9658d8d9d2c8eae4a6a8f14f"
+    },
+    {
+      "frame": 4002,
+      "shot": "LR27",
+      "pixel_sha256": "7320deb20f1715d1a584e884337daaaf590433cd21205afb8ef97d98dd8f0b70",
+      "file": "out/deltarune_v03/stills/04002.png",
+      "png_sha256": "f265e726f5806da5fa5668c6b058c6ad00be4db121e157b7dcd1c7fdca5933a6"
+    },
+    {
+      "frame": 4004,
+      "shot": "LR27",
+      "pixel_sha256": "c2474eab0f869909ea088fa8815e0d1fccc8c07163fb5710f4b1b3c4270b31bc",
+      "file": "out/deltarune_v03/stills/04004.png",
+      "png_sha256": "1e537f0bd6fbdf1a9017be180672cc0c689b76dba3343b1dd107f9a6a7009cf7"
+    },
+    {
+      "frame": 4006,
+      "shot": "LR27",
+      "pixel_sha256": "84f090d56b9335511bbb6eda6a83a245e0eed92d05263f658bfcb9a55cf7c184",
+      "file": "out/deltarune_v03/stills/04006.png",
+      "png_sha256": "f0314a35be41fc07c544dadc27165ad10c407515b1efcf5684410259ed4ae75d"
+    },
+    {
+      "frame": 4008,
+      "shot": "LR27",
+      "pixel_sha256": "57edaf15d72b6772f7b5a240bd59299602952c2aa913820b450daaf04f5d5d9d",
+      "file": "out/deltarune_v03/stills/04008.png",
+      "png_sha256": "9591836104826e8635176a472012943fa5b73b852aa75ee2da4b075f57b4cdad"
+    },
+    {
+      "frame": 4010,
+      "shot": "LR27",
+      "pixel_sha256": "d20ebfc77fe6389c777c88b8771a862df4e194aef09c653c89f816740b11d630",
+      "file": "out/deltarune_v03/stills/04010.png",
+      "png_sha256": "2de464e0bc6d2f079a87606281d80e554e879d888c8e96e8c84c385fbd9db4c7"
+    },
+    {
+      "frame": 4012,
+      "shot": "LR27",
+      "pixel_sha256": "385bbfd9a5fc199a9c664129a47b23f569984cc45dadc72ed8f804daff015552",
+      "file": "out/deltarune_v03/stills/04012.png",
+      "png_sha256": "9787e7c0070988644edcfb3f9e8e93ab7230b1c697c04a9004e097b52bd79175"
+    },
+    {
+      "frame": 4014,
+      "shot": "LR27",
+      "pixel_sha256": "3c97b8c3c37217b5d3759e672489fadcc898348077aa87405d90945ff5896236",
+      "file": "out/deltarune_v03/stills/04014.png",
+      "png_sha256": "00ff2d19cad8926811ccd90f2862c39bae5f28a6dc8fa70f31d4b172f34831a3"
+    },
+    {
+      "frame": 4016,
+      "shot": "LR27",
+      "pixel_sha256": "8c9cd6b91bb8d50ed3bb5d594d88e2b684bdb3324952fe6bc65703222cc3c649",
+      "file": "out/deltarune_v03/stills/04016.png",
+      "png_sha256": "e7a76178b7cad94e9f4406a6b528a39f57b6717b68ff64a8adb3517276cb557b"
+    },
+    {
+      "frame": 4018,
+      "shot": "LR27",
+      "pixel_sha256": "a72cef8c2a032ac194c636d95d745e9acf7ae415de7faf7a88a6c2bcf06490a1",
+      "file": "out/deltarune_v03/stills/04018.png",
+      "png_sha256": "d6a43457402e0b6622bb51d6685d50e13d395d96f6c787c3a6b80fe455ef7450"
+    },
+    {
+      "frame": 4020,
+      "shot": "LR27",
+      "pixel_sha256": "98a14f02eae90e7e34f859ccd57bdc2821cc6d589147ddcf90600c5135de1ad6",
+      "file": "out/deltarune_v03/stills/04020.png",
+      "png_sha256": "a4081d5b97bbd97f5eebaf2f44e10f7333adee02fee9983c0231c72be71677de"
+    },
+    {
+      "frame": 4022,
+      "shot": "LR27",
+      "pixel_sha256": "4364fdc72b66488172c0088ca21adfaedf9977113465021ad485a468cfd45426",
+      "file": "out/deltarune_v03/stills/04022.png",
+      "png_sha256": "0c4d470f222eee64baac1a28f527d8284b26acaadca2a84d7c1d91d579828691"
+    },
+    {
+      "frame": 4024,
+      "shot": "LR27",
+      "pixel_sha256": "5c31f5cc70fa2bed2d9bd610c473b8e83b2d95ddd24157641fc6fbae33503164",
+      "file": "out/deltarune_v03/stills/04024.png",
+      "png_sha256": "d2f18d1b42be5bbb8493f190b74c0e64c7fc13cee3c15237bd312aa4cfb5351d"
+    },
+    {
+      "frame": 4026,
+      "shot": "LR27",
+      "pixel_sha256": "5a51d7e625da67de4bea19e674d660a4efde5b06522780a959914cfadc01d2be",
+      "file": "out/deltarune_v03/stills/04026.png",
+      "png_sha256": "75e4467106a3ec7f87b03a5c63f907153ea648293ec93dc041be4da5954c96c4"
+    },
+    {
+      "frame": 4028,
+      "shot": "LR27",
+      "pixel_sha256": "d9a5e881858c2a9a6f1fe1cb045da6c510633f2104ff0d64da3414f643af8532",
+      "file": "out/deltarune_v03/stills/04028.png",
+      "png_sha256": "18e332b98e5f7ab52a190a92f759ebb6ca3a39ba22856964faf2340ed9c9f252"
+    },
+    {
+      "frame": 4030,
+      "shot": "LR27",
+      "pixel_sha256": "ca0618066c8a3f976090f3c3d07f589ac9e70fc9130c028d67f8c2fe98f2da7d",
+      "file": "out/deltarune_v03/stills/04030.png",
+      "png_sha256": "fbfc14345dade2979dbcb13d69939e7dd421980c642c89c1eaeb0cf4760ffa67"
+    },
+    {
+      "frame": 4032,
+      "shot": "LR27",
+      "pixel_sha256": "8a9070e06d8adcf43e5c69940d60fbb47eec9de0d942baea3f62dbadca28023b",
+      "file": "out/deltarune_v03/stills/04032.png",
+      "png_sha256": "668ea417fb19cd0bbf6d3bf55ed77dedcb0de43b65cb9af71444d356a4dea49b"
+    },
+    {
+      "frame": 4034,
+      "shot": "LR27",
+      "pixel_sha256": "73e35c038707f00340ca9ab27042c0c1ddeb318d20cfa2de6a33b43515bdf598",
+      "file": "out/deltarune_v03/stills/04034.png",
+      "png_sha256": "8fe6c517eac49c996f34ef350d912d62b3ef3494e2e3e992c3f372539d78bcc3"
+    },
+    {
+      "frame": 4036,
+      "shot": "LR27",
+      "pixel_sha256": "0e27d2027afba8cf2cb760fc1437eca363689f65f56569d6464ec790a0795b68",
+      "file": "out/deltarune_v03/stills/04036.png",
+      "png_sha256": "468fbee017531eba65ba3d8fcf08d825deb1de9deeed15479a2961ddb18ae037"
+    },
+    {
+      "frame": 4038,
+      "shot": "LR27",
+      "pixel_sha256": "ae5a09e6ce642ce5138f2e75fcedd97364e7b731c8777ec7fe1d39fc47838aa7",
+      "file": "out/deltarune_v03/stills/04038.png",
+      "png_sha256": "7849ea2b4afb9323782e7667c7880452c2ec3cdaa94ab577e7654181c73854ba"
+    },
+    {
+      "frame": 4040,
+      "shot": "LR27",
+      "pixel_sha256": "c75b093e6f08eabfcfca432d7cff927e1a9b13a209fcb59c60415415e7502bff",
+      "file": "out/deltarune_v03/stills/04040.png",
+      "png_sha256": "0f949d006cb338e5857b9a9c8a6c549d0e9a7155570fc67f28a10cdd4260a519"
+    },
+    {
+      "frame": 4052,
+      "shot": "LR27",
+      "pixel_sha256": "99da819c018083da0d71d28ce44c48bea209b82108906e960e16fd93971995f9",
+      "file": "out/deltarune_v03/stills/04052.png",
+      "png_sha256": "41fc0ee26e71dd7cc875f9c69d5ca8479ea2fdb94e93cb28a6a5df728449c29e"
+    },
+    {
+      "frame": 4064,
+      "shot": "LR27",
+      "pixel_sha256": "63b47c29b793199bfba39f253d54c83ebff80043ca6035c1199d0d9987b76cf3",
+      "file": "out/deltarune_v03/stills/04064.png",
+      "png_sha256": "aa881a0af11f353ee76676a3f9648432106b55ff374bad4266ef1ced2eb02f0e"
+    },
+    {
+      "frame": 4071,
+      "shot": "LR27",
+      "pixel_sha256": "63b47c29b793199bfba39f253d54c83ebff80043ca6035c1199d0d9987b76cf3",
+      "file": "out/deltarune_v03/stills/04071.png",
+      "png_sha256": "aa881a0af11f353ee76676a3f9648432106b55ff374bad4266ef1ced2eb02f0e"
+    },
+    {
+      "frame": 4072,
+      "shot": "LR28",
+      "pixel_sha256": "8e542eaa121c477ac341c612c9ff503fdaa815c44247d838c0cb1a665029b769",
+      "file": "out/deltarune_v03/stills/04072.png",
+      "png_sha256": "1facfe5842f99b6a5ad327b506e8dde23e50865aa147b9fb56f0abceaec31c39"
+    },
+    {
+      "frame": 4084,
+      "shot": "LR28",
+      "pixel_sha256": "1f983f816c618aa4349ec86c64ca23af2bb2c29246046fcc309cd06baefb5f3a",
+      "file": "out/deltarune_v03/stills/04084.png",
+      "png_sha256": "9baf37f93e1d1b2907a9fca0e21c87ae7f0d42ebb42831f016a54461a8b805e4"
+    },
+    {
+      "frame": 4100,
+      "shot": "LR28",
+      "pixel_sha256": "98dbb35aef00ecd8deaab4f1e2d97a81c0e792e6f5faebc12ebd8541a94a4e7f",
+      "file": "out/deltarune_v03/stills/04100.png",
+      "png_sha256": "e39d0bfadad1da49c97e178c4f149db9e4112b5dae9d6f2e6168a7a5afad8db7"
+    },
+    {
+      "frame": 4118,
+      "shot": "LR28",
+      "pixel_sha256": "a3a5b2408c40380ec44489763b50a4430a1f20547b85c0cc538c014ce47059e8",
+      "file": "out/deltarune_v03/stills/04118.png",
+      "png_sha256": "0a12bf9178a8ba1c790053a15f24c114194265b6e101829c3d0c108c87ccab4d"
+    },
+    {
+      "frame": 4138,
+      "shot": "LR28",
+      "pixel_sha256": "e2a5042c9a07ed3df34d39e98e1b993f48df8f53d5a1b5859da3643adf7e326e",
+      "file": "out/deltarune_v03/stills/04138.png",
+      "png_sha256": "1293368a2caea340f26faefbedc0ba07a256547ee0560815ed3b3cf3bee1c88c"
+    },
+    {
+      "frame": 4163,
+      "shot": "LR28",
+      "pixel_sha256": "da42423674bddaa7b19f3e01792f74260b635be7ffd50e537f58e72517d3da42",
+      "file": "out/deltarune_v03/stills/04163.png",
+      "png_sha256": "b6263dc45cc9940d9a6c6de63c82dcd33cd6f9bc66ac573e0f097b8428b813af"
+    },
+    {
+      "frame": 4164,
+      "shot": "LR29",
+      "pixel_sha256": "24fb220b43171b96de5f0ed4016e98d2b78a73e28b5b69eccb91edb44eb45f48",
+      "file": "out/deltarune_v03/stills/04164.png",
+      "png_sha256": "b51515ddb609912353d5582058e0a3514329c4f46882601cd585daae39f6423a"
+    },
+    {
+      "frame": 4176,
+      "shot": "LR29",
+      "pixel_sha256": "9d44f76c84e1776e5b17784716cd5eb5f380938361f9cb378911a9926fc3137c",
+      "file": "out/deltarune_v03/stills/04176.png",
+      "png_sha256": "48160137d4d495b2641902e80b4e1a32db08cec4146a7523fd27179ea1982850"
+    },
+    {
+      "frame": 4211,
+      "shot": "LR29",
+      "pixel_sha256": "f1481c1155f293adb718e23a125d9d1bd0c053fdd163eb6fa4cf6f5c8c3d189e",
+      "file": "out/deltarune_v03/stills/04211.png",
+      "png_sha256": "ee5af55067e33bfee933a3364f301c5671176998760dda824a5db0b14c240053"
+    },
+    {
+      "frame": 4258,
+      "shot": "LR29",
+      "pixel_sha256": "ea66fb798a3c7fb88cbbc64f72d040c4641086a69a920e6db964c13b81a0b765",
+      "file": "out/deltarune_v03/stills/04258.png",
+      "png_sha256": "109cbe0c489511d3affb67e2a98f391106617eb97402b96f7a241987c9fffe54"
+    },
+    {
+      "frame": 4259,
+      "shot": "LR30",
+      "pixel_sha256": "f4f3458254388093733e6dfe2dbe21ea2b5412a368f8f5211edbf03bfebf4d5b",
+      "file": "out/deltarune_v03/stills/04259.png",
+      "png_sha256": "98298658c7be584c4108258c179d170b2feab9333e5a10a01d326a24b015f86f"
+    },
+    {
+      "frame": 4271,
+      "shot": "LR30",
+      "pixel_sha256": "4da7c46b1d708abfa1ff5aedf4dc2f67233822f6e8d17b02e9a3e4e75075b3e5",
+      "file": "out/deltarune_v03/stills/04271.png",
+      "png_sha256": "372fc4f99e80caaa3bc6a4c68cf8458a8f896c81a2e26771fe456ba259207fca"
+    },
+    {
+      "frame": 4319,
+      "shot": "LR30",
+      "pixel_sha256": "4917ec608e64994615877e7406a51d1aaadb5574da531c6afa562a866954f818",
+      "file": "out/deltarune_v03/stills/04319.png",
+      "png_sha256": "5d341ef199e3eb0dbb0881e241509a60885ae53deb1329e8d3c42c901997c598"
+    },
+    {
+      "frame": 4344,
+      "shot": "LR30",
+      "pixel_sha256": "25b5b75ab79af9b16da864dd36e17287cce1448608f7737fbf97ee08c2c3e276",
+      "file": "out/deltarune_v03/stills/04344.png",
+      "png_sha256": "fb5f22fcd1fed6859583ed4df66ca290f7135cd25124e7e4ad01ca452c1ec9a8"
+    },
+    {
+      "frame": 4429,
+      "shot": "LR30",
+      "pixel_sha256": "b6d3c3d6a55cf68f4763db69e53024a992e848b965fe6ae616769f949511d9f7",
+      "file": "out/deltarune_v03/stills/04429.png",
+      "png_sha256": "25d33728e17a500e6289a6fdf951847b10536525a44d2f4648106c967a64404a"
+    },
+    {
+      "frame": 4430,
+      "shot": "LR31",
+      "pixel_sha256": "936c97a019f60a467e63811e46a6586f2c1630b409aabcbe9b59384a7bf738eb",
+      "file": "out/deltarune_v03/stills/04430.png",
+      "png_sha256": "f0186cf643799e378043db197f4070b74e6a4e5192a4e91217057086761699e6"
+    },
+    {
+      "frame": 4432,
+      "shot": "LR31",
+      "pixel_sha256": "a2e5e23bcf4f60938462ef2c4158ae333eb9e22b3376e325697d8b1a59766f7b",
+      "file": "out/deltarune_v03/stills/04432.png",
+      "png_sha256": "088b72244aadd2fdf2aacf0c7d2e7b921ca003183d0e7804d81352d2727e3837"
+    },
+    {
+      "frame": 4434,
+      "shot": "LR31",
+      "pixel_sha256": "966ef72f75ec0d9b304ef6eff9aaa51c03ff070b53d819d6b7546c7b2543931e",
+      "file": "out/deltarune_v03/stills/04434.png",
+      "png_sha256": "76425cd5cf5d32dfdeaaf9e933dc66ddbc2aa5af3c64971b98bbbf40a68065d1"
+    },
+    {
+      "frame": 4436,
+      "shot": "LR31",
+      "pixel_sha256": "82b4f3ae4f4ec7c9ea867083241e45855c0602f724f18ce6f14e3e06d3a814a0",
+      "file": "out/deltarune_v03/stills/04436.png",
+      "png_sha256": "63ab0185db808c3279d5cecc8fc52755edbb6b3b7f3b5baa8568d8cf235c7940"
+    },
+    {
+      "frame": 4438,
+      "shot": "LR31",
+      "pixel_sha256": "4cc37f6c1f45a5546256b8067784eb287df763956618b0a57aecd8f81983b22b",
+      "file": "out/deltarune_v03/stills/04438.png",
+      "png_sha256": "87603ba94ec4723408f596f3fb2a72587eda413ca10fe8f2ad612c350c38ab5a"
+    },
+    {
+      "frame": 4440,
+      "shot": "LR31",
+      "pixel_sha256": "dbaca1c7ab1b150cba20fa76a540d74177b8931c3f38294f1d878928820c5094",
+      "file": "out/deltarune_v03/stills/04440.png",
+      "png_sha256": "ed27551bdb817b0301b977a4bddd5384840cab52c762e2c2267fe05287e229b4"
+    },
+    {
+      "frame": 4442,
+      "shot": "LR31",
+      "pixel_sha256": "d877247301ad39224c85f535ce88d016bf13fbdcdd8d710c4dd8ff198d6ffcdc",
+      "file": "out/deltarune_v03/stills/04442.png",
+      "png_sha256": "7f60bd1f4607ecdf57674d426a95cb77b39e2b92ae8140103b606110bf92eec0"
+    },
+    {
+      "frame": 4444,
+      "shot": "LR31",
+      "pixel_sha256": "453b57c7434095094f92f951d224c68f150d05df1fe0bd73d3e68d9815fc586b",
+      "file": "out/deltarune_v03/stills/04444.png",
+      "png_sha256": "ace2c08035d5cb93585cb0db1943c9830dbfaa32174f8bcdcb47ed7794c7148c"
+    },
+    {
+      "frame": 4446,
+      "shot": "LR31",
+      "pixel_sha256": "7e6047b42d1bed5389193d5ee0eddaa034ef3d8d10bd58c1bf77e7afd959a0d1",
+      "file": "out/deltarune_v03/stills/04446.png",
+      "png_sha256": "49f253dd5009fa852fab1e16335e0d422d0b6883f9307842984677f105f57bce"
+    },
+    {
+      "frame": 4448,
+      "shot": "LR31",
+      "pixel_sha256": "b1cd2ae66cc90348c4c82dd2e7bd69ba76eed8c788152df9ac3dd264460bc9a2",
+      "file": "out/deltarune_v03/stills/04448.png",
+      "png_sha256": "aa3043f7fa819b72c837ebb67fd273ebc698d4aafafa008fcefb4ec9a8ca6213"
+    },
+    {
+      "frame": 4450,
+      "shot": "LR31",
+      "pixel_sha256": "d30c365adf3703d874f84e957fa5437f8905c4fcd4b4a81d1cce72a3c6fecf84",
+      "file": "out/deltarune_v03/stills/04450.png",
+      "png_sha256": "9cd2e5d36227c2093bf5ea44e7a4e323004399d919cb34dd69028f89acc61bd6"
+    },
+    {
+      "frame": 4452,
+      "shot": "LR31",
+      "pixel_sha256": "c88a82c5315da3731aaa44092101dc06803a9ff7344334fdd21cc097522aaa39",
+      "file": "out/deltarune_v03/stills/04452.png",
+      "png_sha256": "102d11531664b8971f936b17fc601b15bc71f1cdca434a4b3464546d584b6c9b"
+    },
+    {
+      "frame": 4454,
+      "shot": "LR31",
+      "pixel_sha256": "3fc8cf4a962924f25c2c6d762f67ee9b99cace5f78e6c9f1f604a2e7468d5658",
+      "file": "out/deltarune_v03/stills/04454.png",
+      "png_sha256": "8e02863de8c52ac7ed2aa990086d48bd2cdc9cd93a795f96ccabc665fd9a3630"
+    },
+    {
+      "frame": 4456,
+      "shot": "LR31",
+      "pixel_sha256": "02d19f08b141eccd9cab0322a749fd09f2b4c3b2fed36aa7e8dc4885b015e5c5",
+      "file": "out/deltarune_v03/stills/04456.png",
+      "png_sha256": "64ec70091985fd45ebb6662af5628990bbbce38f82c27f36edd6479cc8b8ab11"
+    },
+    {
+      "frame": 4458,
+      "shot": "LR31",
+      "pixel_sha256": "2e9caf175e34ed684ac2fef7cb2004bddd0178dfbf8d4654c8261ff3f718a58e",
+      "file": "out/deltarune_v03/stills/04458.png",
+      "png_sha256": "270a494b98b0cecd5667aa839c985375fde38c023f2af0bfc3b1c0dba32a6010"
+    },
+    {
+      "frame": 4460,
+      "shot": "LR31",
+      "pixel_sha256": "8e870524f4fcf0cd6b4a487fc76525a920968cf98260ce8740407a264f373a72",
+      "file": "out/deltarune_v03/stills/04460.png",
+      "png_sha256": "3d8184c443da711adbabcb82519c5ff2750fd18315454cbcb61e6e099bc5b81f"
+    },
+    {
+      "frame": 4474,
+      "shot": "LR31",
+      "pixel_sha256": "f8cae4e9026e53420cc908c99f702e248393d49a7f4d06121efe475b9e5f52ed",
+      "file": "out/deltarune_v03/stills/04474.png",
+      "png_sha256": "986beafe3386600fbc66c37a70cf85731b413620c226c53ee5a019f4d4b2d4bd"
+    },
+    {
+      "frame": 4518,
+      "shot": "LR31",
+      "pixel_sha256": "5ea76ad54ce66453892df56375794045737ac81c3b66d7931373b90f46f5b328",
+      "file": "out/deltarune_v03/stills/04518.png",
+      "png_sha256": "f74e8c2dc6ca0fc3d047d07c37a4f4a8ce73e9afb1fea991f6e4fdcc59032342"
+    },
+    {
+      "frame": 4519,
+      "shot": "LR32",
+      "pixel_sha256": "826ebdc9a65b68403205c1d107cff18a43112c77960f253891f56b5a4ba0bcd6",
+      "file": "out/deltarune_v03/stills/04519.png",
+      "png_sha256": "4246a09c75195abed4fc49a52e51b25fb3f906171e9e8e85657b93b1f856fce4"
+    },
+    {
+      "frame": 4531,
+      "shot": "LR32",
+      "pixel_sha256": "947b6778d01ba912c086c54affb14d782e614833d6e5a19853438778e67ebc89",
+      "file": "out/deltarune_v03/stills/04531.png",
+      "png_sha256": "7a07adb21387b3d620b5eee4773bcee962e3b007c516f155355f829e37ad0e60"
+    },
+    {
+      "frame": 4543,
+      "shot": "LR32",
+      "pixel_sha256": "852b1830fbd2937580264ea2029e73c8f21eb74c6d49028d0ca337f95883f4b0",
+      "file": "out/deltarune_v03/stills/04543.png",
+      "png_sha256": "d16556a319c0c17c46e729ad80f7da70ea3d77f42cadb2ee1036503382cfacf5"
+    },
+    {
+      "frame": 4546,
+      "shot": "LR32",
+      "pixel_sha256": "41c6a0b5d9bedda9b883bd69a640bfb89a71e53a238dce7b80060e5b80f8e2dd",
+      "file": "out/deltarune_v03/stills/04546.png",
+      "png_sha256": "4d60262a7003da0d1f6b9f85d5d6dbaca4ab19093d53b7bb432d6ef19c9f7c75"
+    },
+    {
+      "frame": 4573,
+      "shot": "LR32",
+      "pixel_sha256": "210546cceb2554ae20a1d2c6ac4348c5ff31b02313de117a9957fa6abea36c75",
+      "file": "out/deltarune_v03/stills/04573.png",
+      "png_sha256": "0e74592471945b92e98d861a08942c52b371bb6c447b499e707e63fd6b9918bb"
+    },
+    {
+      "frame": 4574,
+      "shot": "LR33",
+      "pixel_sha256": "da2443423ab6c34088dc69234832e40262d0a08242c4ad1917d9de74825b3496",
+      "file": "out/deltarune_v03/stills/04574.png",
+      "png_sha256": "ff5af8447c7723034dff9e3f56cc73dc478ed60cc64a8381e92df814c794d40b"
+    },
+    {
+      "frame": 4586,
+      "shot": "LR33",
+      "pixel_sha256": "422bff97b1f749a7492da786b23322abbf80925ad38cf43a13d453edd0d6f840",
+      "file": "out/deltarune_v03/stills/04586.png",
+      "png_sha256": "ed066d59839638f22c1321d4fc0a42b647db4a24fec6ed3a936290038d8faf5f"
+    },
+    {
+      "frame": 4601,
+      "shot": "LR33",
+      "pixel_sha256": "16903127a493ad2a4da70c4f365f26c65091b9bc2d499cee78fc2e46fdced243",
+      "file": "out/deltarune_v03/stills/04601.png",
+      "png_sha256": "d199e97bf657401f12a048c5425c78427b7fa147c4f7157071ff091747ab82aa"
+    },
+    {
+      "frame": 4614,
+      "shot": "LR33",
+      "pixel_sha256": "91b20dace5f0cba0da070dfb30f7a7b7cdb003b73fbf2fb5347c9f6b1b0bd7b9",
+      "file": "out/deltarune_v03/stills/04614.png",
+      "png_sha256": "6d135d9871ee1b38f055925bc71ecd553e2fac9d9452c4cd73f636dd428145b2"
+    },
+    {
+      "frame": 4653,
+      "shot": "LR33",
+      "pixel_sha256": "fd1aacfca3618029fb453572dfd50f2ba21d526ec877a4b4a0a29e500d78690e",
+      "file": "out/deltarune_v03/stills/04653.png",
+      "png_sha256": "281d82e6a71e6f186fda85e8965c03dafa4f6d3df975a780f61c3f771389b1e5"
+    },
+    {
+      "frame": 4654,
+      "shot": "LR34",
+      "pixel_sha256": "89e8b4b483d10c0cc993b964a451b8724d7618dbbed3a7827d18a9f6864a8771",
+      "file": "out/deltarune_v03/stills/04654.png",
+      "png_sha256": "fc4cd801a4362034760dc316c73e509fe6e7322c59a70804e9f733e89cb4e85d"
+    },
+    {
+      "frame": 4666,
+      "shot": "LR34",
+      "pixel_sha256": "3e21a178b3da1daf0d746fc48db2050fd740d3ff7109bd774b09fc67b51e38d2",
+      "file": "out/deltarune_v03/stills/04666.png",
+      "png_sha256": "a71efbd0679a0335396ae9b7dd4f3614aa356eb71b5a6ecd7f9b3cd2469c2bbb"
+    },
+    {
+      "frame": 4734,
+      "shot": "LR34",
+      "pixel_sha256": "c40cf51a3779b7ede812730fa528163ef426a315940be5dfe285eb0a813e4c1f",
+      "file": "out/deltarune_v03/stills/04734.png",
+      "png_sha256": "0e3504f1a1ece607730469611eb17dc939f22528cee1850d90cd378126d6d33f"
+    },
+    {
+      "frame": 4758,
+      "shot": "LR34",
+      "pixel_sha256": "a198e1dabd74fa0eab75e17da3d007ca8c02646df5bab083e580496bf8e076f6",
+      "file": "out/deltarune_v03/stills/04758.png",
+      "png_sha256": "6c6ace7be5296d9599dd19c7add26442b8d2c25f22d41cfc41d45861c4d0f0a3"
+    },
+    {
+      "frame": 4814,
+      "shot": "LR34",
+      "pixel_sha256": "0e05c5bfaed7eb113d09de8844ca64283fec2a64b2d70595074017bb31fde2af",
+      "file": "out/deltarune_v03/stills/04814.png",
+      "png_sha256": "bcd882905cdbe9f5bd5fad630acfe7d96cd9f1bfd4444d28d069f27034575ec4"
+    },
+    {
+      "frame": 4862,
+      "shot": "LR34",
+      "pixel_sha256": "b2b2e9dfaa712301aeb64ee65f5a15ea2825aac7609c273e45f6a1bd91b70972",
+      "file": "out/deltarune_v03/stills/04862.png",
+      "png_sha256": "cc9a45201f560f6fc837a9eb27569a63bef84d9d2b2c86458c0800477a5fba8a"
+    },
+    {
+      "frame": 4863,
+      "shot": "LR35",
+      "pixel_sha256": "80cee6b3efa97947c2571840d0016368ec5363b870672417e90f07369192e8ae",
+      "file": "out/deltarune_v03/stills/04863.png",
+      "png_sha256": "f127cb10b865934841e6446a6d3450b67ea6285d082371c1ec4b1b10b5c6bc15"
+    },
+    {
+      "frame": 4875,
+      "shot": "LR35",
+      "pixel_sha256": "b6a2016346cbe847a775f7395b80a798c61ace8620975065d01867247a32d228",
+      "file": "out/deltarune_v03/stills/04875.png",
+      "png_sha256": "e87c981d6e1b81361aa637fadd0781a583acf6f874cfe4227c79c60ec42b5861"
+    },
+    {
+      "frame": 4896,
+      "shot": "LR35",
+      "pixel_sha256": "871f5e640b75fb0fb32ea68a2c55cae6bdaef41839d190ec4786a76e2546a012",
+      "file": "out/deltarune_v03/stills/04896.png",
+      "png_sha256": "b21bb8fc3bdbae666e73015b873d876dcfd85824246d7f17d08a29d3eafccc6d"
+    },
+    {
+      "frame": 4928,
+      "shot": "LR35",
+      "pixel_sha256": "fadc5f5563a210f1e1ec8de253f98784413812c3b52b6eef40282737bf533a26",
+      "file": "out/deltarune_v03/stills/04928.png",
+      "png_sha256": "3456c258c6084f3a97aaf8b5b848f0e49db984ec47bc119259e543452a24d601"
+    },
+    {
+      "frame": 4929,
+      "shot": "LR36",
+      "pixel_sha256": "bb8d29519a7bc80ab9817ef9bd490704de7dbf9ed15ef0613283e0527a0c7800",
+      "file": "out/deltarune_v03/stills/04929.png",
+      "png_sha256": "09c6b0a00c9e43d32c5951216459213f148076993ae5201b38a4c75047f08ee6"
+    },
+    {
+      "frame": 4941,
+      "shot": "LR36",
+      "pixel_sha256": "912f387071ec53cd868cdb77037de0709edb807927469924bd24d83bd640b953",
+      "file": "out/deltarune_v03/stills/04941.png",
+      "png_sha256": "e32991a555ac15df6664d0ff7ca2ee53bdc242b4fdcf8b35f4a5b0b1fd0e8c9e"
+    },
+    {
+      "frame": 4949,
+      "shot": "LR36",
+      "pixel_sha256": "4128f2be1f60f3315741a5412a69dabd9a30d1ebafa178de223e979c47fe51c7",
+      "file": "out/deltarune_v03/stills/04949.png",
+      "png_sha256": "ca1f62dc89f75e1b7b3dc51ed2c3760ce2cc3251ebcd32bd487d2ab384d92ab4"
+    },
+    {
+      "frame": 4962,
+      "shot": "LR36",
+      "pixel_sha256": "e2e57cc405619a6ad0f83eab6d54a45489dc45c4958649edd2a8d2db2b7db2f4",
+      "file": "out/deltarune_v03/stills/04962.png",
+      "png_sha256": "e3aaffe057f2c0972bf1df7db07eb78a641ac214308d7a1de13d996b12b78bad"
+    },
+    {
+      "frame": 4963,
+      "shot": "LR36",
+      "pixel_sha256": "49167be59061de4f1dce4b9536dbfdef76718cf46bed8e697af46bd0ea7d87c8",
+      "file": "out/deltarune_v03/stills/04963.png",
+      "png_sha256": "d97ece9d235d6b5a14227ca4c935c9636bb1339c0a805a841ffce19ae229954d"
+    },
+    {
+      "frame": 4964,
+      "shot": "LR36",
+      "pixel_sha256": "9e4eaad9043ceae9d5a2069692d97e52d7efd223297176fcbc814f0379dc6ba5",
+      "file": "out/deltarune_v03/stills/04964.png",
+      "png_sha256": "b87b16af8be7da997a63722dfcbeb4c2d47f4bea75215c1a754aed0253513854"
+    },
+    {
+      "frame": 4965,
+      "shot": "LR36",
+      "pixel_sha256": "bb1aad185081ad9a91080c7b2eed5dcb394ef54061299645a03e4008d23247fb",
+      "file": "out/deltarune_v03/stills/04965.png",
+      "png_sha256": "eedc8bdf649b7da2dfdcd782b92bc6df4c4ecaddab189b072eaec81cf64fedcf"
+    },
+    {
+      "frame": 4966,
+      "shot": "LR36",
+      "pixel_sha256": "643f83d94ad0b6c991e6e6e23387b3b5d9562c88b8011966ed286b5eeed67014",
+      "file": "out/deltarune_v03/stills/04966.png",
+      "png_sha256": "9749a0cdc1767838da41aff07fb3124965a8217dd7f6c8ff97583eabab3db122"
+    },
+    {
+      "frame": 4967,
+      "shot": "LR36",
+      "pixel_sha256": "75490bda86f59988650d9b19ed94aa86c53c780c97216253fe5f492878c56fc7",
+      "file": "out/deltarune_v03/stills/04967.png",
+      "png_sha256": "32abdf636f416d2853f68f6b4569dadb0119f2645454b0162cb087f19ebd33e5"
+    },
+    {
+      "frame": 4968,
+      "shot": "LR36",
+      "pixel_sha256": "92bc09150d3c1d02dc9c7fcded29c2ac0ec53f51216b4670466b52ac292e780e",
+      "file": "out/deltarune_v03/stills/04968.png",
+      "png_sha256": "eb0cac85c00bc1c12563d80314f3e2b26a4a87152b3b99b9c289e722b5bd7375"
+    },
+    {
+      "frame": 4969,
+      "shot": "LR36",
+      "pixel_sha256": "1561fbb91b22dbcb1638c1ecc02825428682fa6c5d8d6219e81c675f867683ef",
+      "file": "out/deltarune_v03/stills/04969.png",
+      "png_sha256": "14cbeeec28c4cbcbbf059bf4fc07846809eb204003a0ae4a0a891da4d972c903"
+    },
+    {
+      "frame": 4970,
+      "shot": "LR37",
+      "pixel_sha256": "822e3a311bc34185394aeb709bb83310f1243089b95cdadc218eee179b1d6f78",
+      "file": "out/deltarune_v03/stills/04970.png",
+      "png_sha256": "20f08885b32fd899b85bcdfc5d390a99015ecd71de0242214234ec1efba549e7"
+    },
+    {
+      "frame": 4971,
+      "shot": "LR37",
+      "pixel_sha256": "822e3a311bc34185394aeb709bb83310f1243089b95cdadc218eee179b1d6f78",
+      "file": "out/deltarune_v03/stills/04971.png",
+      "png_sha256": "20f08885b32fd899b85bcdfc5d390a99015ecd71de0242214234ec1efba549e7"
+    },
+    {
+      "frame": 4972,
+      "shot": "LR37",
+      "pixel_sha256": "822e3a311bc34185394aeb709bb83310f1243089b95cdadc218eee179b1d6f78",
+      "file": "out/deltarune_v03/stills/04972.png",
+      "png_sha256": "20f08885b32fd899b85bcdfc5d390a99015ecd71de0242214234ec1efba549e7"
+    },
+    {
+      "frame": 4973,
+      "shot": "LR37",
+      "pixel_sha256": "822e3a311bc34185394aeb709bb83310f1243089b95cdadc218eee179b1d6f78",
+      "file": "out/deltarune_v03/stills/04973.png",
+      "png_sha256": "20f08885b32fd899b85bcdfc5d390a99015ecd71de0242214234ec1efba549e7"
+    },
+    {
+      "frame": 4974,
+      "shot": "LR37",
+      "pixel_sha256": "822e3a311bc34185394aeb709bb83310f1243089b95cdadc218eee179b1d6f78",
+      "file": "out/deltarune_v03/stills/04974.png",
+      "png_sha256": "20f08885b32fd899b85bcdfc5d390a99015ecd71de0242214234ec1efba549e7"
+    },
+    {
+      "frame": 4975,
+      "shot": "LR37",
+      "pixel_sha256": "822e3a311bc34185394aeb709bb83310f1243089b95cdadc218eee179b1d6f78",
+      "file": "out/deltarune_v03/stills/04975.png",
+      "png_sha256": "20f08885b32fd899b85bcdfc5d390a99015ecd71de0242214234ec1efba549e7"
+    },
+    {
+      "frame": 4976,
+      "shot": "LR37",
+      "pixel_sha256": "822e3a311bc34185394aeb709bb83310f1243089b95cdadc218eee179b1d6f78",
+      "file": "out/deltarune_v03/stills/04976.png",
+      "png_sha256": "20f08885b32fd899b85bcdfc5d390a99015ecd71de0242214234ec1efba549e7"
+    },
+    {
+      "frame": 4977,
+      "shot": "LR37",
+      "pixel_sha256": "822e3a311bc34185394aeb709bb83310f1243089b95cdadc218eee179b1d6f78",
+      "file": "out/deltarune_v03/stills/04977.png",
+      "png_sha256": "20f08885b32fd899b85bcdfc5d390a99015ecd71de0242214234ec1efba549e7"
+    },
+    {
+      "frame": 4978,
+      "shot": "LR37",
+      "pixel_sha256": "822e3a311bc34185394aeb709bb83310f1243089b95cdadc218eee179b1d6f78",
+      "file": "out/deltarune_v03/stills/04978.png",
+      "png_sha256": "20f08885b32fd899b85bcdfc5d390a99015ecd71de0242214234ec1efba549e7"
+    },
+    {
+      "frame": 4979,
+      "shot": "LR37",
+      "pixel_sha256": "822e3a311bc34185394aeb709bb83310f1243089b95cdadc218eee179b1d6f78",
+      "file": "out/deltarune_v03/stills/04979.png",
+      "png_sha256": "20f08885b32fd899b85bcdfc5d390a99015ecd71de0242214234ec1efba549e7"
+    },
+    {
+      "frame": 4980,
+      "shot": "LR37",
+      "pixel_sha256": "822e3a311bc34185394aeb709bb83310f1243089b95cdadc218eee179b1d6f78",
+      "file": "out/deltarune_v03/stills/04980.png",
+      "png_sha256": "20f08885b32fd899b85bcdfc5d390a99015ecd71de0242214234ec1efba549e7"
+    },
+    {
+      "frame": 4981,
+      "shot": "LR37",
+      "pixel_sha256": "822e3a311bc34185394aeb709bb83310f1243089b95cdadc218eee179b1d6f78",
+      "file": "out/deltarune_v03/stills/04981.png",
+      "png_sha256": "20f08885b32fd899b85bcdfc5d390a99015ecd71de0242214234ec1efba549e7"
+    },
+    {
+      "frame": 4982,
+      "shot": "LR37",
+      "pixel_sha256": "822e3a311bc34185394aeb709bb83310f1243089b95cdadc218eee179b1d6f78",
+      "file": "out/deltarune_v03/stills/04982.png",
+      "png_sha256": "20f08885b32fd899b85bcdfc5d390a99015ecd71de0242214234ec1efba549e7"
+    },
+    {
+      "frame": 4983,
+      "shot": "LR37",
+      "pixel_sha256": "822e3a311bc34185394aeb709bb83310f1243089b95cdadc218eee179b1d6f78",
+      "file": "out/deltarune_v03/stills/04983.png",
+      "png_sha256": "20f08885b32fd899b85bcdfc5d390a99015ecd71de0242214234ec1efba549e7"
+    },
+    {
+      "frame": 4984,
+      "shot": "LR37",
+      "pixel_sha256": "822e3a311bc34185394aeb709bb83310f1243089b95cdadc218eee179b1d6f78",
+      "file": "out/deltarune_v03/stills/04984.png",
+      "png_sha256": "20f08885b32fd899b85bcdfc5d390a99015ecd71de0242214234ec1efba549e7"
+    },
+    {
+      "frame": 4985,
+      "shot": "LR37",
+      "pixel_sha256": "822e3a311bc34185394aeb709bb83310f1243089b95cdadc218eee179b1d6f78",
+      "file": "out/deltarune_v03/stills/04985.png",
+      "png_sha256": "20f08885b32fd899b85bcdfc5d390a99015ecd71de0242214234ec1efba549e7"
+    },
+    {
+      "frame": 4986,
+      "shot": "LR37",
+      "pixel_sha256": "822e3a311bc34185394aeb709bb83310f1243089b95cdadc218eee179b1d6f78",
+      "file": "out/deltarune_v03/stills/04986.png",
+      "png_sha256": "20f08885b32fd899b85bcdfc5d390a99015ecd71de0242214234ec1efba549e7"
+    },
+    {
+      "frame": 4987,
+      "shot": "LR37",
+      "pixel_sha256": "822e3a311bc34185394aeb709bb83310f1243089b95cdadc218eee179b1d6f78",
+      "file": "out/deltarune_v03/stills/04987.png",
+      "png_sha256": "20f08885b32fd899b85bcdfc5d390a99015ecd71de0242214234ec1efba549e7"
+    },
+    {
+      "frame": 4988,
+      "shot": "LR37",
+      "pixel_sha256": "822e3a311bc34185394aeb709bb83310f1243089b95cdadc218eee179b1d6f78",
+      "file": "out/deltarune_v03/stills/04988.png",
+      "png_sha256": "20f08885b32fd899b85bcdfc5d390a99015ecd71de0242214234ec1efba549e7"
+    },
+    {
+      "frame": 4989,
+      "shot": "LR37",
+      "pixel_sha256": "822e3a311bc34185394aeb709bb83310f1243089b95cdadc218eee179b1d6f78",
+      "file": "out/deltarune_v03/stills/04989.png",
+      "png_sha256": "20f08885b32fd899b85bcdfc5d390a99015ecd71de0242214234ec1efba549e7"
+    },
+    {
+      "frame": 4990,
+      "shot": "LR37",
+      "pixel_sha256": "822e3a311bc34185394aeb709bb83310f1243089b95cdadc218eee179b1d6f78",
+      "file": "out/deltarune_v03/stills/04990.png",
+      "png_sha256": "20f08885b32fd899b85bcdfc5d390a99015ecd71de0242214234ec1efba549e7"
+    },
+    {
+      "frame": 4991,
+      "shot": "LR37",
+      "pixel_sha256": "822e3a311bc34185394aeb709bb83310f1243089b95cdadc218eee179b1d6f78",
+      "file": "out/deltarune_v03/stills/04991.png",
+      "png_sha256": "20f08885b32fd899b85bcdfc5d390a99015ecd71de0242214234ec1efba549e7"
+    },
+    {
+      "frame": 4992,
+      "shot": "LR37",
+      "pixel_sha256": "822e3a311bc34185394aeb709bb83310f1243089b95cdadc218eee179b1d6f78",
+      "file": "out/deltarune_v03/stills/04992.png",
+      "png_sha256": "20f08885b32fd899b85bcdfc5d390a99015ecd71de0242214234ec1efba549e7"
+    },
+    {
+      "frame": 4993,
+      "shot": "LR37",
+      "pixel_sha256": "822e3a311bc34185394aeb709bb83310f1243089b95cdadc218eee179b1d6f78",
+      "file": "out/deltarune_v03/stills/04993.png",
+      "png_sha256": "20f08885b32fd899b85bcdfc5d390a99015ecd71de0242214234ec1efba549e7"
+    },
+    {
+      "frame": 4994,
+      "shot": "LR37",
+      "pixel_sha256": "b2ace8b153d8b2cb06cf5cebe1c47e2a4597149122bc50cda06fe1669e6daf57",
+      "file": "out/deltarune_v03/stills/04994.png",
+      "png_sha256": "aeff2b15bb443649786fd0c629dc731a8e72da999de4a3e2942fdf960b346e9b"
+    },
+    {
+      "frame": 4995,
+      "shot": "LR37",
+      "pixel_sha256": "6d774d353a8f5c237a7c9a004bacad4ddac79236fd17d0bdca82d33753c85c24",
+      "file": "out/deltarune_v03/stills/04995.png",
+      "png_sha256": "0e69386243bd5e31486c919ea01dc344d05cf77a42dfb6f7e92a6eefb5b54964"
+    },
+    {
+      "frame": 5000,
+      "shot": "LR37",
+      "pixel_sha256": "3aeb467bde6796cc34b299d4c72f797dfb59e2943063b9b8057ef3d661c6aed3",
+      "file": "out/deltarune_v03/stills/05000.png",
+      "png_sha256": "eb532d548ee11f4ecbfb397483ce12b14b612a456c874efef416641efd161488"
+    },
+    {
+      "frame": 5029,
+      "shot": "LR37",
+      "pixel_sha256": "6d774d353a8f5c237a7c9a004bacad4ddac79236fd17d0bdca82d33753c85c24",
+      "file": "out/deltarune_v03/stills/05029.png",
+      "png_sha256": "0e69386243bd5e31486c919ea01dc344d05cf77a42dfb6f7e92a6eefb5b54964"
+    },
+    {
+      "frame": 5030,
+      "shot": "LR38",
+      "pixel_sha256": "d7eb568247f0430783a685e1588541d9c200ac8a66a67415c39a35aa0c1676ba",
+      "file": "out/deltarune_v03/stills/05030.png",
+      "png_sha256": "fb7d02f98a1c48ea5ed5ad0a67e00459a1259bc26290242d2c99bc64fa4aad62"
+    },
+    {
+      "frame": 5042,
+      "shot": "LR38",
+      "pixel_sha256": "00818dc17a2a3e646c249a1ebe80eea6c4a9cec841c7a5c96627f76b28ef6b00",
+      "file": "out/deltarune_v03/stills/05042.png",
+      "png_sha256": "490db70bd6fa6a0c8df2d25fd6ef2e293e6d71f6ee89c25aa61d8f1cdbc00194"
+    },
+    {
+      "frame": 5058,
+      "shot": "LR38",
+      "pixel_sha256": "769f0f330215fa5593ddfaafa79619c1101d99f72d6a54bd3718ffff7453ae6a",
+      "file": "out/deltarune_v03/stills/05058.png",
+      "png_sha256": "0ddb1cd141781b286e8843ee377bb6e79c9af1be2388daccead86d40ddd5a9d4"
+    },
+    {
+      "frame": 5085,
+      "shot": "LR38",
+      "pixel_sha256": "769f0f330215fa5593ddfaafa79619c1101d99f72d6a54bd3718ffff7453ae6a",
+      "file": "out/deltarune_v03/stills/05085.png",
+      "png_sha256": "0ddb1cd141781b286e8843ee377bb6e79c9af1be2388daccead86d40ddd5a9d4"
+    }
+  ],
+  "shuffle_replays": 287,
+  "supported_range": [
+    0,
+    5086
+  ],
+  "hard_cut_black_frames_checked": 24,
+  "unsupported_inputs_rejected": 5,
+  "independent_execution_states": 12,
+  "runtime": {
+    "python": "3.12.14",
+    "Pillow": "12.3.0",
+    "font_path": "C:\\Windows\\Fonts\\consola.ttf",
+    "font_sha256": "cf00b507b3286870cc5064ebd0633c303f70b491a4af25eec2d32df413db0179"
+  },
+  "video": {
+    "file": "out/deltarune_v03/full_rough_v03_silent.mp4",
+    "sha256": "829692b73373a4facb3cc3bf884e907d88eb1aad9d92d1fa92856af92f61f622",
+    "decoded_frames": 5086,
+    "fps": 24,
+    "resolution": [
+      640,
+      360
+    ],
+    "duration_seconds": 211.91666666666666,
+    "audio_tracks": 0,
+    "original_pixel_hash_chain": "b466a0e07153655716ede136f52190d3bd671960b56027583aa1810dfe670c13",
+    "unique_frames_by_shot": {
+      "LR01": 89,
+      "LR02": 64,
+      "LR03": 41,
+      "LR04": 9,
+      "LR05": 80,
+      "LR06": 91,
+      "LR07": 60,
+      "LR08": 89,
+      "LR09": 172,
+      "LR10": 176,
+      "LR11": 169,
+      "LR12": 182,
+      "LR13": 174,
+      "LR14": 131,
+      "LR15": 129,
+      "LR16": 62,
+      "LR17": 45,
+      "LR18": 257,
+      "LR19": 85,
+      "LR20": 172,
+      "LR21": 176,
+      "LR22": 215,
+      "LR23": 317,
+      "LR24": 162,
+      "LR25": 81,
+      "LR26": 86,
+      "LR27": 77,
+      "LR28": 92,
+      "LR29": 95,
+      "LR30": 171,
+      "LR31": 89,
+      "LR32": 55,
+      "LR33": 80,
+      "LR34": 209,
+      "LR35": 66,
+      "LR36": 41,
+      "LR37": 9,
+      "LR38": 25
+    }
+  },
+  "clips": [
+    {
+      "name": "P1_handoff_protect",
+      "source_range": [
+        3821,
+        4072
+      ],
+      "frames": 251,
+      "file": "out/deltarune_v03/P1_handoff_protect.mp4",
+      "sha256": "7fb05af5b7657808224c6ccf453446ed5ae69792fccf9ea021cdc0ff64bb8945"
+    },
+    {
+      "name": "P2_absence_reentry",
+      "source_range": [
+        2650,
+        2838
+      ],
+      "frames": 188,
+      "file": "out/deltarune_v03/P2_absence_reentry.mp4",
+      "sha256": "2184cdf4acdd68e76829f563b4d96d45223543904a92e36ff3594f092d746110"
+    },
+    {
+      "name": "P3_creation_normal",
+      "source_range": [
+        0,
+        715
+      ],
+      "frames": 715,
+      "file": "out/deltarune_v03/P3_creation_normal.mp4",
+      "sha256": "9eb673c0064448ec8b59a5709eff3b10a23e7f2fe9fcc7c0df7dde3bc849a2a0"
+    },
+    {
+      "name": "P4_love_recursion",
+      "source_range": [
+        4259,
+        5086
+      ],
+      "frames": 827,
+      "file": "out/deltarune_v03/P4_love_recursion.mp4",
+      "sha256": "48f65778aabc4fc6c7e57efbae5954b54b23a0cc2ed8c41e03107ed2f8808bb5"
+    },
+    {
+      "name": "P2_reentry",
+      "source_range": [
+        4072,
+        4164
+      ],
+      "frames": 92,
+      "file": "out/deltarune_v03/P2_reentry.mp4",
+      "sha256": "9923e1057d055451e2b5a3b0c5d11838f50b113a9e8e74eabc6d3e342c46a91b"
+    }
+  ],
+  "audio_review": "PENDING",
+  "art_review": "NEXT HUMAN ART GATE",
+  "visual_review": "docs/deltarune/11_BLOCKING_REVIEW.md; technical checks alone do not prove direction",
+  "limitations": [
+    "Silent rough only",
+    "Original geometry, not final character art",
+    "Game visual R01–03 pending",
+    "No real-time full playback or audio listening claim"
+  ]
+}

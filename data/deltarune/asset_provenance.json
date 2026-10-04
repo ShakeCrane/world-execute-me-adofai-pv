@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-10-01",
+  "scope": "Independent original geometric fan-work study, not complete production artwork",
+  "ai_involvement": "AI assisted research, direction documents and code-drawn artwork logic; no ImageGen bitmap asset used",
+  "records": [
+    {"asset": "Kris/Noelle/hand/SOUL/menu/lake geometric study", "implementation": "film/deltarune_poc/dr_ui.py", "origin": "New programmatic shapes informed by DELTARUNE character and mechanism references; no extracted game pixels", "rights": "Fan work; underlying character/world rights remain with DELTARUNE rights holders, including Toby Fox; repository MIT code license does not relicense those rights", "status": "study only, production art pending"},
+    {"asset": "Font", "origin": "Installed Windows Consolas at C:/Windows/Fonts/consola.ttf", "rights": "System font, not redistributed; upstream docs/FONTS.md applies", "status": "local dependency, hash recorded in poc_validation.json"},
+    {"asset": "Cached font loading helper", "origin": "film/tui_pv_world_execute_20260926/tuikit.py:font", "rights": "Original repository MIT; preserve LICENSE and NOTICE.md", "status": "directly reused function; no original art or palette copied"},
+    {"asset": "Timing anchors", "origin": "data/timing/word_timeline_notext.json", "rights": "Existing text-free timing metadata; Mili lyrics and audio remain separately copyrighted", "status": "No lyric text or song audio in new deliverables"}
+  ],
+  "external_material_excluded": ["Game sprites/screenshots/sounds/fonts", "Copied decompiled scripts", "Mili song audio and full lyric text", "Whale maid/dancer artwork in new PoC"],
+  "policy_sources": ["https://deltarune.com/help/#licensing", "https://projectmili.com/copyright-guidelines"],
+  "planned_public_credit": "Non-official DELTARUNE fan work; DELTARUNE character/world rights credited to relevant creators including Toby Fox; music by Mili when actually used; original art author credits; AI assistance disclosed",
+  "publication_status": "Not published; final release attribution and permissions review pending actual asset list"
+}

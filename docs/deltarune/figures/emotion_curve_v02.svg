@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="430" viewBox="0 0 1280 430">
+<rect width="1280" height="430" fill="#101522"/>
+<g font-family="sans-serif" fill="#E7E9F2">
+<text x="78" y="35" font-size="22">Emotional rhythm — v0.2 editorial intent</text>
+<text x="78" y="61" font-size="15" fill="#A0ABBD">Subjective intensity / dashed v0.1 risk assessment / AUDIO REVIEW PENDING</text>
+<path d="M78 348.00 H1233" stroke="#30394A"/>
+<text x="45" y="353.00" font-size="14">0</text>
+<path d="M78 300.00 H1233" stroke="#30394A"/>
+<text x="45" y="305.00" font-size="14">2</text>
+<path d="M78 252.00 H1233" stroke="#30394A"/>
+<text x="45" y="257.00" font-size="14">4</text>
+<path d="M78 204.00 H1233" stroke="#30394A"/>
+<text x="45" y="209.00" font-size="14">6</text>
+<path d="M78 156.00 H1233" stroke="#30394A"/>
+<text x="45" y="161.00" font-size="14">8</text>
+<path d="M78 108.00 H1233" stroke="#30394A"/>
+<text x="45" y="113.00" font-size="14">10</text>
+<text x="78.00" y="377" font-size="14">0s</text>
+<text x="241.51" y="377" font-size="14">30s</text>
+<text x="405.02" y="377" font-size="14">60s</text>
+<text x="568.52" y="377" font-size="14">90s</text>
+<text x="732.03" y="377" font-size="14">120s</text>
+<text x="895.54" y="377" font-size="14">150s</text>
+<text x="1059.05" y="377" font-size="14">180s</text>
+<text x="1222.55" y="377" font-size="14">210s</text>
+<polyline fill="none" stroke="#71809B" stroke-width="3" stroke-dasharray="8 6" points="78.00,300.00 240.37,276.00 399.79,252.00 480.86,228.00 618.94,252.00 762.46,180.00 883.96,156.00 1002.73,156.00 1104.24,156.00 1182.36,180.00 1206.66,348.00 1233.00,276.00"/>
+<polyline fill="none" stroke="#F04462" stroke-width="3" points="78.00,324.00 107.52,280.80 206.76,256.80 280.11,280.80 399.79,242.40 439.31,196.80 480.86,280.80 541.95,271.20 618.94,261.60 679.80,175.20 722.49,264.00 762.46,184.80 811.97,177.60 832.63,220.80 883.96,194.40 945.73,151.20 983.65,132.00 1002.73,247.20 1045.19,187.20 1098.79,127.20 1104.24,240.00 1134.90,194.40 1182.36,278.40 1197.35,240.00 1206.66,348.00 1220.28,295.20 1233.00,295.20"/>
+<circle cx="78.00" cy="324.00" r="3" fill="#F04462"/>
+<circle cx="107.52" cy="280.80" r="3" fill="#F04462"/>
+<circle cx="206.76" cy="256.80" r="3" fill="#F04462"/>
+<circle cx="280.11" cy="280.80" r="3" fill="#F04462"/>
+<circle cx="399.79" cy="242.40" r="3" fill="#F04462"/>
+<circle cx="439.31" cy="196.80" r="3" fill="#F04462"/>
+<circle cx="480.86" cy="280.80" r="3" fill="#F04462"/>
+<circle cx="541.95" cy="271.20" r="3" fill="#F04462"/>
+<circle cx="618.94" cy="261.60" r="3" fill="#F04462"/>
+<circle cx="679.80" cy="175.20" r="3" fill="#F04462"/>
+<circle cx="722.49" cy="264.00" r="3" fill="#F04462"/>
+<circle cx="762.46" cy="184.80" r="3" fill="#F04462"/>
+<circle cx="811.97" cy="177.60" r="3" fill="#F04462"/>
+<circle cx="832.63" cy="220.80" r="3" fill="#F04462"/>
+<circle cx="883.96" cy="194.40" r="3" fill="#F04462"/>
+<circle cx="945.73" cy="151.20" r="3" fill="#F04462"/>
+<circle cx="983.65" cy="132.00" r="3" fill="#F04462"/>
+<circle cx="1002.73" cy="247.20" r="3" fill="#F04462"/>
+<circle cx="1045.19" cy="187.20" r="3" fill="#F04462"/>
+<circle cx="1098.79" cy="127.20" r="3" fill="#F04462"/>
+<circle cx="1104.24" cy="240.00" r="3" fill="#F04462"/>
+<circle cx="1134.90" cy="194.40" r="3" fill="#F04462"/>
+<circle cx="1182.36" cy="278.40" r="3" fill="#F04462"/>
+<circle cx="1197.35" cy="240.00" r="3" fill="#F04462"/>
+<circle cx="1206.66" cy="348.00" r="3" fill="#F04462"/>
+<circle cx="1220.28" cy="295.20" r="3" fill="#F04462"/>
+<circle cx="1233.00" cy="295.20" r="3" fill="#F04462"/>
+<text x="78.00" y="311.00" text-anchor="middle" font-size="13">establish</text>
+<text x="206.76" y="243.80" text-anchor="middle" font-size="13">warmth</text>
+<text x="439.31" y="183.80" text-anchor="middle" font-size="13">false release</text>
+<text x="679.80" y="162.20" text-anchor="middle" font-size="13">first rupture</text>
+<text x="832.63" y="207.80" text-anchor="middle" font-size="13">escalation</text>
+<text x="983.65" y="119.00" text-anchor="middle" font-size="13">formal climax</text>
+<text x="1098.79" y="114.20" text-anchor="middle" font-size="13">relational climax</text>
+<text x="1182.36" y="265.40" text-anchor="middle" font-size="13">aftermath</text>
+<text x="1220.28" y="282.20" text-anchor="middle" font-size="13">unresolved ending</text>
+<text x="78" y="412" font-size="14" fill="#A0ABBD">Breath is authored duration; high intensity does not mean more cuts. Music/character art/game reference approval remains pending.</text>
+</g></svg>

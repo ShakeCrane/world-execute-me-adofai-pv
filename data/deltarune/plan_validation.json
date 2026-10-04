@@ -1,0 +1,35 @@
+{
+  "passed": true,
+  "errors": [],
+  "frame_count": 5086,
+  "shots": 38,
+  "critical_events": 11,
+  "word_anchors": 395,
+  "sung_lines": 98,
+  "evidence_ids": 36,
+  "baseline_files_checked": 75,
+  "baseline_comparison": "LF-normalized content; Git checkout CRLF ignored",
+  "lyric_privacy": "scanned 15 new text deliverables against local lyrics without outputting lyrics",
+  "poc_manifest_current": null,
+  "design_version": "0.3",
+  "production_budget": {
+    "SUPPORT": 18,
+    "HERO": 12,
+    "TRANSITION": 3,
+    "BREATH": 5
+  },
+  "legacy_shots_reviewed": 67,
+  "lyric_ledger_rows": 98,
+  "full_rough_required": false,
+  "current_scope": "narrative/shot analysis only",
+  "deleted_legacy_shots": 8,
+  "agency_frame_distribution": {
+    "Consumption": 1597,
+    "Creation": 385,
+    "Execution": 1245,
+    "Recursion": 827,
+    "Union": 1032
+  },
+  "note": "Agency presets are director categories, not quantitative canon; mixed routes cannot be counted as pure normal/weird.",
+  "plan_sha256": "ce9b66702441d326fe4ec4e59f039a6d74ae19e11cff868c9a04663c5719b5e3"
+}

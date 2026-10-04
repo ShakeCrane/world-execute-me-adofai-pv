@@ -1,0 +1,164 @@
+{
+  "scope": "DIRECTOR STRUCTURE ONLY; next independent human ART GATE excluded",
+  "date": "2026-10-04",
+  "technical_validation": {
+    "passed": true,
+    "errors": [],
+    "frame_count": 5086,
+    "shots": 38,
+    "critical_events": 11,
+    "word_anchors": 395,
+    "sung_lines": 98,
+    "evidence_ids": 36,
+    "baseline_files_checked": 75,
+    "baseline_comparison": "LF-normalized content; Git checkout CRLF ignored",
+    "lyric_privacy": "scanned 15 new text deliverables against local lyrics without outputting lyrics",
+    "poc_manifest_current": true,
+    "design_version": "0.3",
+    "production_budget": {
+      "SUPPORT": 18,
+      "HERO": 12,
+      "TRANSITION": 3,
+      "BREATH": 5
+    },
+    "legacy_shots_reviewed": 67,
+    "lyric_ledger_rows": 98,
+    "full_rough_required": true,
+    "deleted_legacy_shots": 8,
+    "agency_frame_distribution": {
+      "Consumption": 1597,
+      "Creation": 385,
+      "Execution": 1245,
+      "Recursion": 827,
+      "Union": 1032
+    },
+    "note": "Agency presets are director categories, not quantitative canon; mixed routes cannot be counted as pure normal/weird.",
+    "plan_sha256": "5ea44a350c9f992c41f15db7c9cf082c04f0047d1de39af7df22d50c795fec9a"
+  },
+  "visual_completion_audit": [
+    {
+      "requirement": 1,
+      "question": "创建权与主体权分开",
+      "shots": "LR02–05",
+      "evidence": "93,130,156,242,251,269",
+      "assessment": "blocking-layer reviewed; final emotion/art not certified"
+    },
+    {
+      "requirement": 2,
+      "question": "Kris非Vessel morph",
+      "shots": "LR04–05",
+      "evidence": "251,269",
+      "assessment": "blocking-layer reviewed; final emotion/art not certified"
+    },
+    {
+      "requirement": 3,
+      "question": "真实Normal合作",
+      "shots": "LR06–08/12",
+      "evidence": "432,535,655,1326",
+      "assessment": "blocking-layer reviewed; final emotion/art not certified"
+    },
+    {
+      "requirement": 4,
+      "question": "模型非主体本体",
+      "shots": "LR09–10",
+      "evidence": "848,1000",
+      "assessment": "blocking-layer reviewed; final emotion/art not certified"
+    },
+    {
+      "requirement": 5,
+      "question": "首执行善意",
+      "shots": "LR14",
+      "evidence": "1637,1667,1718",
+      "assessment": "blocking-layer reviewed; final emotion/art not certified"
+    },
+    {
+      "requirement": 6,
+      "question": "探索到Weird渐变",
+      "shots": "LR13/21–24",
+      "evidence": "1504,2926,3123,3390,EXEC12",
+      "assessment": "blocking-layer reviewed; final emotion/art not certified"
+    },
+    {
+      "requirement": 7,
+      "question": "生活给予",
+      "shots": "LR15–16",
+      "evidence": "1865,1902,1997",
+      "assessment": "blocking-layer reviewed; final emotion/art not certified"
+    },
+    {
+      "requirement": 8,
+      "question": "权力依赖世界回应",
+      "shots": "LR17",
+      "evidence": "2043,2080,2124",
+      "assessment": "blocking-layer reviewed; final emotion/art not certified"
+    },
+    {
+      "requirement": 9,
+      "question": "一次持续absence",
+      "shots": "LR20",
+      "evidence": "P2/P2_motion",
+      "assessment": "blocking-layer reviewed; final emotion/art not certified"
+    },
+    {
+      "requirement": 10,
+      "question": "目标剪枝非时间删除",
+      "shots": "LR21",
+      "evidence": "2885,2928",
+      "assessment": "blocking-layer reviewed; final emotion/art not certified"
+    },
+    {
+      "requirement": 11,
+      "question": "God双层冲突",
+      "shots": "LR22",
+      "evidence": "3014,3093,3149",
+      "assessment": "blocking-layer reviewed; final emotion/art not certified"
+    },
+    {
+      "requirement": 12,
+      "question": "十二不同关系变化",
+      "shots": "LR24",
+      "evidence": "EXEC12",
+      "assessment": "blocking-layer reviewed; final emotion/art not certified"
+    },
+    {
+      "requirement": 13,
+      "question": "Love感情与短LV阴影",
+      "shots": "LR30–31",
+      "evidence": "P4/P4_motion,4480–4487 source",
+      "assessment": "blocking-layer reviewed; final emotion/art not certified"
+    },
+    {
+      "requirement": 14,
+      "question": "相对自由先于上游界",
+      "shots": "LR32/34",
+      "evidence": "4543,4734,4814",
+      "assessment": "blocking-layer reviewed; final emotion/art not certified"
+    },
+    {
+      "requirement": 15,
+      "question": "问题不善恶答案",
+      "shots": "LR38",
+      "evidence": "5085",
+      "assessment": "blocking-layer reviewed; final emotion/art not certified"
+    }
+  ],
+  "art_gate": "PENDING HUMAN NEXT ROUND",
+  "audio": "PENDING; no listening or audio download",
+  "game_visual": "R01–03 PENDING",
+  "new_art_pass_performed": false,
+  "real_time_full_playback_claimed": false,
+  "files": {
+    "docs/deltarune/06_SHOT_BIBLE.md": "1aff3f0df3ce578dbbfd43b49c9bccd37143e951cf0a9cde4ed975a096853642",
+    "docs/deltarune/09_LYRIC_DIRECTOR_LEDGER.md": "a697d2ea51f89a8603dacc630633e8e6db53973464f4e2fc6e8afadde6b7693b",
+    "docs/deltarune/10_DIRECTOR_REWRITE.md": "d9c90f7e7d7b32c1964e4731ca12430967c51de5ceb89be40998240807cefc18",
+    "docs/deltarune/11_BLOCKING_REVIEW.md": "34d9932e2506dd9c335017133e95d18cb6fe96a5de2c18c698bcbfd7816c94ba",
+    "docs/deltarune/STATUS.md": "3f90946791a65bf9ec8606ac2a662059320da5e54e95962924a6a6ddb21c7749",
+    "docs/DR_PV_MINIMUM_STORY_REFERENCE.md": "b7ba2cc87e0a904adad49cb9a588cb2854d8529e6310168106a8c9286a2dfe45",
+    "data/deltarune/plan_validation.json": "40a8fd8b1d9864acf25eb0aaaac33f4cf55d6ede3eafc6736cc82b05ae769b2e",
+    "data/deltarune/poc_validation_v03.json": "800b381130d6cdd9d1228a71550202df0263ee4407a8a06f3ad2e80b674d5f34",
+    "data/deltarune/director_review_v03.json": "a888570b13b74504ad88632e62a075a53d176d20a6c7e69f2d6a4df3addd9fcb"
+  },
+  "movie": "out/deltarune_v03/full_rough_v03_silent.mp4",
+  "movie_sha256": "829692b73373a4facb3cc3bf884e907d88eb1aad9d92d1fa92856af92f61f622",
+  "clip_count": 5
+}
