@@ -1,8 +1,8 @@
 # DELTARUNE 剧情核心底座
 
-> 状态：LOCKED BASELINE  
-> 用途：后续剧情分析、歌词理解与最终分镜讨论的共同起点。  
-> 规则：这里只保留直接事实、最小必要推论，以及用户明确确立的项目公理。除非出现新的官方/游戏内证据，或用户明确修改，本文件不随讨论漂移。
+> 状态：FINAL / LOCKED BASELINE  
+> 用途：后续剧情分析、歌词理解与分镜创作的永久共同起点。  
+> 规则：这里只保留直接事实、最小必要推论，以及用户明确确立的项目公理。除非出现新的官方/游戏内证据，或用户明确修改，本文件不随讨论漂移；未知项允许长期保持未知。
 
 ---
 
@@ -187,9 +187,23 @@
 
 ---
 
-## 3. 《world.execute(me);》最低固定理解
+## 3. 《world.execute(me);》最终固定理解
 
 这些是歌词转译公理，不是 DELTARUNE canon。
+
+### 歌词主客体固定：I = Kris，you = Player
+
+本项目不再为了适配具体剧情而频繁更换歌词指代。
+
+固定规则：
+
+- 除明确出现的 `them` 等第三人称外，整首歌默认保持 **I = Kris，you = Player**。
+- Noelle、Susie、Berdly、HERO_SWORD、Route、Story / Game 等可以进入画面或关系链，但**不改变 I / you 的主位**。
+- `them` 可以引入被这段关系波及的第三者，但仍不改变 I = Kris、you = Player。
+- 歌词不是 Kris 的 canon 逐字内心独白，而是 **Kris–Player 关系的一对一第一人称隐喻**。
+- 因此，歌词中的亲密、依赖、给予、病态表达可以承担关系意义，不能反推成“Kris canon 上明确爱/恨 Player”。
+
+这条规则优先于局部“某一句更像另一个角色”的便利映射。
 
 ### Execution
 
@@ -204,7 +218,11 @@
 
 **同一个主体可以既是 executor，也在另一层成为 executable。**
 
-Player 发出输入、Kris/其他角色执行行动、Route/世界处理结果，而 Player 自己的行动也只能通过更上层的游戏接口被“执行”。
+在固定的 I = Kris、you = Player 映射下，Execution 的情感主轴始终落在 Kris–Player 关系上；Noelle 等第三者只展示这套执行关系如何向外扩散。
+
+Player 发出输入、Kris/其他角色执行行动、Route/游戏结构处理结果，而 Player 自己的行动也只能通过更上层的游戏接口被“执行”。
+
+最终孤立的 `Execution` **不指定唯一 executor**。它保留为开放问题，而不是强行为“Player 最终赢了”或“Story 最终赢了”。
 
 ### 数学段
 
@@ -234,17 +252,19 @@ Player 发出输入、Kris/其他角色执行行动、Route/世界处理结果�
 - Weird Route / Side B 说明，这种“越界”并不必然等于程序崩坏；系统可能已经定义了它如何继续执行。
 - 因此，最稳的表达不是“Player 把游戏弄坏”，而是：**Player 尝试超出正常权限，而世界把这种越界收编成了真实存在的支线。**
 
+由于歌词主客体已经固定，这里仍然是 **Kris（I）在对 Player（you）说话**；不会为了这一句把 you 改成别的角色。
+
 `God` 不固定等于某个具体角色，不默认指向 Gaster、Ralsei 或人格化世界意志。
 
 允许保留递归层：
 
 - 对 Kris 而言，Player 可以处在更高权限层；
 - 对 Player 而言，Game / Route / Story structure 又处在更高权限层；
-- 因此 Kris↔Player 与 Player↔Game 的“挑战上位边界”可以同时成立。
+- 因此这句话可以理解成 Kris 描述 Player 正在挑战 Player 自己的更高权限边界，而不改变 I / you 的一对一关系。
 
 ### Freedom
 
-歌词的 “you are free / I am trapped” 在本项目中优先读为：
+由于 I / you 已固定，歌词的 “you are free / I am trapped” 在本项目中直接落为：
 
 **Player 能离开；Kris 不能离开自己的世界。**
 
@@ -313,7 +333,7 @@ Player 发出输入、Kris/其他角色执行行动、Route/世界处理结果�
 - Ralsei 到底知道多少？
 - Gaster、Knight、Dess 等尚未公开谜团的最终答案是什么？
 
-这些未知不妨碍本项目进入后续创作。
+这些未知不妨碍本项目进入后续创作，也不应为了“理论完整”被强行补全。
 
 ---
 
