@@ -2,6 +2,20 @@
 
 核实日期：2026-09-30。本页记录事实和证据边界，不替代各许可全文。
 
+## DELTARUNE 技术验证素材
+
+2026-10-05 通过 [Deltarune Wiki MediaWiki API](https://deltarune.wiki/api.php) 的 `imageinfo` 获取 URL，并实际下载、解码以下文件。本机输入在 `input/deltarune/`；该目录随整个 `input/` 被 Git 忽略，未把游戏素材重新许可或打包入开源代码。
+
+| 原文件名 | 核实格式与大小 | 用途 |
+|---|---|---|
+| [Kris_and_Berdly_screenshot_truce.png](https://deltarune.wiki/wiki/File:Kris_and_Berdly_screenshot_truce.png) | PNG，640×480 | 真实游戏画幅、像素观感和窗口合成；自带对白，不是干净场景背景 |
+| [Kris_overworld_Dark_World.png](https://deltarune.wiki/wiki/File:Kris_overworld_Dark_World.png) | PNG，38×74，透明 | 独立角色图层 |
+| [Kris_overworld_SOUL_remove.gif](https://deltarune.wiki/wiki/File:Kris_overworld_SOUL_remove.gif) | GIF，84×69，61 帧 / 13.29 s | SOUL 取出动作与透明帧合成 |
+| [Kris_overworld_SOUL_insert.gif](https://deltarune.wiki/wiki/File:Kris_overworld_SOUL_insert.gif) | GIF，76×66，17 帧 / 8.00 s | SOUL 放回动作与透明帧合成 |
+| [Kris_overworld_8bit.gif](https://deltarune.wiki/wiki/File:Kris_overworld_8bit.gif) | GIF，64×64，2 帧 | 前景越窗机制；不能视为 HERO_SWORD 素材 |
+
+取得的是 wiki 发布的游戏截图/角色动画，不是本机录屏或从自有游戏提取的原文件；wiki 图片的尺寸和动画停顿不一定等于游戏内部资源。DELTARUNE 的游戏美术、角色及动画权利属于 Toby Fox 等原权利人，不因 wiki 可下载而成为 MIT 或 CC BY-NC-SA 的资产。实际下载 URL 与 SHA-256 记录在本机 `sources.json`；技术使用方式与验证范围见 [技术可行性报告](HOW_IT_WORKS.md#deltarune-改编技术可行性报告)。
+
 ## 鲸鱼娘美术
 
 1. 原角色：上善无形 / 上善。署名和许可链见下游保留的 NOTICE；[原作者授权动态](https://www.bilibili.com/opus/1231977657712771073)是进一步核对入口。本次未能实时读取该 B 站动态，不把下游引用写成已实时核验原帖。

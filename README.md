@@ -1,5 +1,9 @@
 # world.execute(me); · 大肥鱼眼中的 world.execute(me)
 
+## 本仓库的 DELTARUNE 改编入口
+
+本仓库保留下面的上游原片工程。改编以 [核心剧情底座](docs/deltarune/CORE_STORY_BASELINE.md) 为准，[细节库](docs/deltarune/DETAIL_IDEA_LIBRARY.md) 提供候选灵感；当前制作机制的实测结论见 [技术可行性报告](docs/HOW_IT_WORKS.md#deltarune-改编技术可行性报告)。技术验证没有生成或批准全曲导演方案 / animatic，`build.py all` 仍构建上游原片。
+
 ![preview](docs/preview.jpg)
 
 一支用代码逐帧渲染的 TUI 风格 PV，**非官方同人作品**：
