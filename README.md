@@ -2,7 +2,9 @@
 
 ## 本仓库的 DELTARUNE 改编入口
 
-本仓库保留下面的上游原片工程。改编以 [核心剧情底座](docs/deltarune/CORE_STORY_BASELINE.md) 为准，[细节库](docs/deltarune/DETAIL_IDEA_LIBRARY.md) 提供候选灵感；当前制作机制的实测结论见 [技术可行性报告](docs/HOW_IT_WORKS.md#deltarune-改编技术可行性报告)。技术验证没有生成或批准全曲导演方案 / animatic，`build.py all` 仍构建上游原片。
+本仓库保留下面的上游原片工程。改编以 [核心剧情底座](docs/deltarune/CORE_STORY_BASELINE.md) 为准，[细节库](docs/deltarune/DETAIL_IDEA_LIBRARY.md) 提供候选灵感；当前可复用能力、局部边界与导演输入接口见 [技术可行性报告](docs/HOW_IT_WORKS.md#deltarune-改编技术可行性报告)。
+
+18 秒连续样片已支持视觉语言基本收束，当前 [Art Direction Draft](docs/deltarune/ART_DIRECTION_DRAFT.md) 待艺术验收。现有技术已整理到可由具体镜头反向验收的阶段；小型像素 / 摄影工具见 `tools/pixel_scene.py`，PoC 媒体仅供本地回看。尚未生成或批准全曲导演方案 / animatic，`build.py all` 仍构建上游原片。
 
 ![preview](docs/preview.jpg)
 
@@ -65,7 +67,7 @@ python build.py all --4k       # 另出 3840×2160 版
 | 路径 | 内容 |
 |---|---|
 | `build.py` | 一键出片 |
-| `tools/` | 歌词合成（`lyrics.py`）、替身舞者（`placeholder_h3.py`） |
+| `tools/` | 歌词合成（`lyrics.py`）、替身舞者（`placeholder_h3.py`）、独立像素 / 摄影操作（`pixel_scene.py`） |
 | `data/` | 不含文字的逐词时间、歌曲指纹、舞者帧的清单 |
 | `film/pv_dsh_frontend_20260927/` | 左边的 dsh 窗口：各组页面脚本 `batch_*.py`、截图脚本 `seg_shot.mjs`、合成与补丁 `dsh_her.py`、`dsh_patch_*.py` |
 | `film/tui_pv_world_execute_20260926/` | 右边的 TUI 引擎：`tuikit.py`，第一版镜头 `full/`，第二版连续性和转场 `continuity_full_v2/` 等 |

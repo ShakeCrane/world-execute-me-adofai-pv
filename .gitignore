@@ -8,6 +8,9 @@ Thumbs.db
 input/*
 !input/README.md
 
+# disposable local Art / Tech experiments, including copyrighted game pixels
+test/art_tech_poc/
+
 # generated at build time
 out/
 node_modules/
