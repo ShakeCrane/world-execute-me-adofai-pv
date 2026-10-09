@@ -1,5 +1,7 @@
 # 《world.execute(me);》×《DELTARUNE》全曲导演分镜 v2 — SONG-FIRST EXPLORATION
 
+> **三框结构纠错（作者 2026-10-09 明确确认）：本稿 A–Y 的 71 个镜头单元默认只描述右上角最大 WORLD 框的内容，少量指定越框镜头除外。**全曲三框的固定几何、左侧 CODE/MODEL 独立镜头轨道与下方原作式逐词歌词镜头轨道，详见 [`DIRECTION_THREE_PANEL_LANGUAGE_V2_CANDIDATE.md`](DIRECTION_THREE_PANEL_LANGUAGE_V2_CANDIDATE.md)。如本文出现未被指定的三框物理融合、模型/歌词直接占据其它框、随剧情改变三框布局等表述，**以三框导演语言纠错文件为准**。正常时候三框各司其职，关系通过音乐同步而非物理拼接成立。
+
 > **DIRECTORIAL CANDIDATE — NOT SEALED。** 本文是供作者删改、比较和重排的全曲导演提案，不替代《DIRECTION_STORYBOARD_V1.2.md》、CORE_STORY_BASELINE、正式 Shot Bible 或 Art 审查。**所有大幅越框视觉均为 ORIGINAL / DIRECTORIAL METAPHOR**，不声称 DELTARUNE 的角色在 canon 上能够改写代码。
 >
 > **输入和时基：**本机 input/lyrics.lrc；film/world_execute_word_timing_20260927/word_timeline.json（AUTOMATIC_DRAFT_REQUIRES_LISTENING_REVIEW）；data/song.json（211.913s）。本稿按 24fps 的 5086 帧 / 211.916667 秒分段；逐词声学估计不是人工听审。**歌曲与其“行内动作”先于画面理论。**为避免在远端仓库复制完整歌词，使用时间、简短词语/语义与本地行序作为锚点；正式贴字读取本地 LRC。
